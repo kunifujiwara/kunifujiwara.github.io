@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "Kunihiko Fujiwara"
+title: ""
 date: 2025-04-29
 type: landing
 
