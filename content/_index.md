@@ -44,15 +44,57 @@ sections:
   #       Please reach out to collaborate 😃
   #   design:
   #     columns: '1'
-  - block: collection
+  - block: markdown
     id: experience
     content:
       title: Experience
-      filters:
-        folders:
-          - experience
+      text: |-
+        <div class="d-flex mb-4">
+          <img src="/media/icons/ual.png" style="height:60px; margin-right:20px;" alt="Urban Analytics Lab logo">
+          <div>
+            <h4>Visiting Research Fellow</h4>
+            <h5>Urban Analytics Lab, National University of Singapore</h5>
+            <p>April 2023 – Present</p>
+          </div>
+        </div>
+        
+        <div class="d-flex mb-4">
+          <img src="/media/icons/takenaka.png" style="height:60px; margin-right:20px;" alt="Takenaka Corporation logo">
+          <div>
+            <h4>Senior Researcher</h4>
+            <h5>Research & Development Institute, Takenaka Corporation</h5>
+            <p>April 2018 – Present</p>
+          </div>
+        </div>
+        
+        <div class="d-flex mb-4">
+          <img src="/media/icons/takenaka.png" style="height:60px; margin-right:20px;" alt="Takenaka Corporation logo">
+          <div>
+            <h4>Engineer</h4>
+            <h5>Building Design Department, Takenaka Corporation</h5>
+            <p>April 2017 – March 2018</p>
+          </div>
+        </div>
+        
+        <div class="d-flex mb-4">
+          <img src="/media/icons/takenaka.png" style="height:60px; margin-right:20px;" alt="Takenaka Corporation logo">
+          <div>
+            <h4>Researcher</h4>
+            <h5>Research & Development Institute, Takenaka Corporation</h5>
+            <p>April 2014 – March 2017</p>
+          </div>
+        </div>
+        
+        <div class="d-flex mb-4">
+          <img src="/media/icons/takenaka.png" style="height:60px; margin-right:20px;" alt="Takenaka Corporation logo">
+          <div>
+            <h4>Engineer</h4>
+            <h5>Building Design Department, Takenaka Corporation</h5>
+            <p>April 2013 – March 2014</p>
+          </div>
+        </div>
     design:
-      view: timeline
+      columns: '1'
   - block: collection
     id: awards
     content:
@@ -93,7 +135,7 @@ sections:
           - event
     design:
       view: article-grid
-      columns: 1
+      columns: 2
   - block: collection
     id: patents
     content:
