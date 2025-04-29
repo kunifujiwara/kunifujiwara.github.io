@@ -140,18 +140,43 @@ sections:
       title: Awards & Honors
       text: |-
         <style>
-        .award-list p {
-          margin-bottom: 0.5rem;
+        .award-list {
+          list-style: none;
+          padding-left: 0;
+        }
+        .award-item {
+          display: flex;
+          align-items: center;
+          margin-bottom: 0.75rem;
+        }
+        .award-icon {
+          margin-right: 0.75rem;
+          color: #3273dc;
         }
         </style>
         
-        <div class="award-list">
-          <p>Special Encouragement Award, Engineering Advancement Association of Japan, 2023</p>
-          <p>Technology Award, Heat Island Institute International, 2023</p>
-          <p>Bronze Award, Urban Data Challenge, 2023</p>
-          <p>Best Poster Award, 17th Conference of Heat Island Institute International, 2022</p>
-          <p>Award of Excellence, Urban Infrastructure & Technology Promotion Council, 2021</p>
-        </div>
+        <ul class="award-list">
+          <li class="award-item">
+            <i class="fas fa-award award-icon"></i>
+            <span>Special Encouragement Award, Engineering Advancement Association of Japan, 2023</span>
+          </li>
+          <li class="award-item">
+            <i class="fas fa-medal award-icon"></i>
+            <span>Technology Award, Heat Island Institute International, 2023</span>
+          </li>
+          <li class="award-item">
+            <i class="fas fa-trophy award-icon"></i>
+            <span>Bronze Award, Urban Data Challenge, 2023</span>
+          </li>
+          <li class="award-item">
+            <i class="fas fa-certificate award-icon"></i>
+            <span>Best Poster Award, 17th Conference of Heat Island Institute International, 2022</span>
+          </li>
+          <li class="award-item">
+            <i class="fas fa-star award-icon"></i>
+            <span>Award of Excellence, Urban Infrastructure & Technology Promotion Council, 2021</span>
+          </li>
+        </ul>
     design:
       columns: '1'
   - block: collection
