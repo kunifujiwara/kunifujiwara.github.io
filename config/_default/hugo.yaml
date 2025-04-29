@@ -8,6 +8,9 @@ title: Kunihiko Fujiwara
 # Website URL
 baseURL: 'https://example.com/'
 
+# Theme
+theme: academic-cv
+
 ############################
 ## LANGUAGE
 ############################
@@ -54,3 +57,23 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+# Add JavaScript processing
+minify:
+  js: true
+  css: true
+  html: true
+  svg: true
+  xml: true
+  json: true
+  tsv: true
+
+# Configure static files
+staticDir:
+  - static
+  - assets
+  - themes/academic-cv/static
+
+# Configure asset pipeline
+assetDir: assets
+resourceDir: assets
