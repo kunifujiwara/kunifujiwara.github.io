@@ -55,6 +55,8 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+      # Add CSS class to center the title
+      css_class: text-center
   - block: collection
     id: awards
     content:
