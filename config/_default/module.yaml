@@ -7,7 +7,6 @@
 imports:
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
-  - path: themes/academic-cv
 
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
 mounts:
@@ -24,5 +23,9 @@ mounts:
     target: layouts
   - source: assets
     target: assets
-  - source: themes/academic-cv
-    target: themes/academic-cv
+  - source: themes/academic-cv/layouts
+    target: layouts
+  - source: themes/academic-cv/static
+    target: static
+  - source: themes/academic-cv/assets
+    target: assets
