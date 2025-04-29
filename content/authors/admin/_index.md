@@ -66,28 +66,41 @@ education:
     date_start: 2007-04-01
     date_end: 2011-03-31
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Visiting Research Fellow
+    company_name: Urban Analytics Lab, National University of Singapore
     company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+    company_logo: 'ual.png'
+    date_start: 2023-04-01
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+    summary: ''
+  - position: Senior Researcher
+    company_name: Research & Development Institute, Takenaka Corporation
     company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    company_logo: 'takenaka.png'
+    date_start: 2018-04-01
+    date_end: ''
+    summary: ''
+  - position: Engineer
+    company_name: Building Design Department, Takenaka Corporation
+    company_url: ''
+    company_logo: 'takenaka.png'
+    date_start: 2017-04-01
+    date_end: 2018-03-31
+    summary: ''
+  - position: Researcher
+    company_name: Research & Development Institute, Takenaka Corporation
+    company_url: ''
+    company_logo: 'takenaka.png'
+    date_start: 2014-04-01
+    date_end: 2017-03-31
+    summary: ''
+  - position: Engineer
+    company_name: Building Design Department, Takenaka Corporation
+    company_url: ''
+    company_logo: 'takenaka.png'
+    date_start: 2013-04-01
+    date_end: 2014-03-31
+    summary: ''
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`

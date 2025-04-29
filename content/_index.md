@@ -44,15 +44,17 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: collection
+  - block: resume-experience
     id: experience
     content:
       title: Experience
-      filters:
-        folders:
-          - experience
+      # The user's folder name in `content/authors/`
+      username: admin
     design:
-      view: timeline
+      # Hugo date format
+      date_format: 'January 2006'
+      # Education or Experience section first?
+      is_education_first: false
   - block: collection
     id: awards
     content:
