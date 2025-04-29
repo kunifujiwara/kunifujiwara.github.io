@@ -56,6 +56,7 @@ sections:
           align-items: center;
           margin-bottom: 1.5rem;
           max-width: 100%;
+          width: 100%;
         }
         .logo-container {
           flex: 0 0 70px;
@@ -67,20 +68,21 @@ sections:
         }
         .content-container {
           flex: 1;
+          width: 100%;
         }
         .content-container h4 {
           margin-top: 0;
           margin-bottom: 0.3rem;
-          font-size: 0.95rem;
+          font-size: 1rem;
         }
         .content-container h5 {
           margin-top: 0;
           margin-bottom: 0.3rem;
-          font-size: 0.85rem;
+          font-size: 0.9rem;
         }
         .content-container p {
           margin: 0;
-          font-size: 0.8rem;
+          font-size: 0.85rem;
         }
         </style>
 
@@ -158,6 +160,28 @@ sections:
           margin-bottom: 0.4rem;
           font-size: 0.85rem;
           line-height: 1.3;
+        }
+        </style>
+        <style>
+        .award-list {
+          max-width: 100%;
+          width: 100%;
+        }
+        .award-list p {
+          margin-bottom: 0.5rem;
+          font-size: 0.9rem;
+          line-height: 1.4;
+        }
+        </style>
+        <style>
+        .award-list {
+          max-width: 100%;
+          width: 100%;
+        }
+        .award-list p {
+          margin-bottom: 0.5rem;
+          font-size: 0.9rem;
+          line-height: 1.4;
         }
         </style>
         
