@@ -16,12 +16,12 @@ main:
   - name: Awards
     url: /#awards
     weight: 13
-  - name: Featured Publications
-    url: /#featured-publications
+  - name: Publications
+    url: /#publications
     weight: 14
-  - name: Recent Publications
-    url: /#recent-publications
-    weight: 15
+  # - name: Recent Publications
+  #   url: /#recent-publications
+  #   weight: 15
   - name: Talks
     url: /#talks
     weight: 16

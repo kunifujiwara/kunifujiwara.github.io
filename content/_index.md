@@ -191,7 +191,7 @@ sections:
     design:
       columns: '1'
   - block: collection
-    id: featured-publications
+    id: publications
     content:
       title: Featured Publications
       filters:
