@@ -139,44 +139,54 @@ sections:
     content:
       title: Awards & Honors
       text: |-
-        <div class="experience-item">
-          <div class="content-container" style="margin-left: 0;">
-            <h4>Special Encouragement Award</h4>
-            <h5>Engineering Advancement Association of Japan</h5>
-            <p>2023</p>
-          </div>
+        <style>
+        .award-item {
+          margin-bottom: 0.75rem;
+          display: flex;
+          align-items: center;
+        }
+        .award-name {
+          font-weight: 600;
+          margin-right: 0.5rem;
+        }
+        .award-org {
+          color: #666;
+          margin-right: 0.5rem;
+        }
+        .award-year {
+          color: #888;
+          font-size: 0.9rem;
+        }
+        </style>
+        
+        <div class="award-item">
+          <span class="award-name">Special Encouragement Award,</span>
+          <span class="award-org">Engineering Advancement Association of Japan,</span>
+          <span class="award-year">2023</span>
         </div>
         
-        <div class="experience-item">
-          <div class="content-container" style="margin-left: 0;">
-            <h4>Technology Award</h4>
-            <h5>Heat Island Institute International</h5>
-            <p>2023</p>
-          </div>
+        <div class="award-item">
+          <span class="award-name">Technology Award,</span>
+          <span class="award-org">Heat Island Institute International,</span>
+          <span class="award-year">2023</span>
         </div>
         
-        <div class="experience-item">
-          <div class="content-container" style="margin-left: 0;">
-            <h4>Bronze Award</h4>
-            <h5>Urban Data Challenge</h5>
-            <p>2023</p>
-          </div>
+        <div class="award-item">
+          <span class="award-name">Bronze Award,</span>
+          <span class="award-org">Urban Data Challenge,</span>
+          <span class="award-year">2023</span>
         </div>
         
-        <div class="experience-item">
-          <div class="content-container" style="margin-left: 0;">
-            <h4>Best Poster Award</h4>
-            <h5>17th Conference of Heat Island Institute International</h5>
-            <p>2022</p>
-          </div>
+        <div class="award-item">
+          <span class="award-name">Best Poster Award,</span>
+          <span class="award-org">17th Conference of Heat Island Institute International,</span>
+          <span class="award-year">2022</span>
         </div>
         
-        <div class="experience-item">
-          <div class="content-container" style="margin-left: 0;">
-            <h4>Award of Excellence</h4>
-            <h5>Urban Infrastructure & Technology Promotion Council</h5>
-            <p>2021</p>
-          </div>
+        <div class="award-item">
+          <span class="award-name">Award of Excellence,</span>
+          <span class="award-org">Urban Infrastructure & Technology Promotion Council,</span>
+          <span class="award-year">2021</span>
         </div>
     design:
       columns: '1'
