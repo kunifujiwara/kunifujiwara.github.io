@@ -79,18 +79,31 @@ sections:
     design:
       columns: '1'
 
-  - block: accomplishments
+  - block: markdown
     id: awards
     content:
-      title: Awards
-      items:
-        - certificate_url: ''
-          date_end: ''
-          date_start: '2021-01-01'
-          description: ''
-          organization: Example Organization
-          organization_url: ''
-          title: Example Award
+      title: '🏆 Awards & Certifications'
+      text: |-
+        ## Neural Networks and Deep Learning
+        **Coursera** | November 2023
+        [View Certificate](https://www.coursera.org/learn/neural-networks-deep-learning)
+        
+        I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network's architecture; and apply deep learning to your own applications.
+
+        ## Blockchain Fundamentals
+        **edX** | July 2023
+        [View Certificate](https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals)
+        
+        Learned:
+        - Synthesize your own blockchain solutions
+        - Gain an in-depth understanding of the specific mechanics of Bitcoin
+        - Understand Bitcoin's real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin's Proof-of-Work consensus algorithm
+
+        ## Object-Oriented Programming in R
+        **DataCamp** | January 2023
+        [View Certificate](https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r)
+        
+        Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
     design:
       columns: '1'
 
