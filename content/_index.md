@@ -108,19 +108,6 @@ sections:
         
         <div class="experience-item">
           <div class="logo-container">
-            <a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">
-              <img src="/media/icons/takenaka.png" alt="Takenaka Corporation logo">
-            </a>
-          </div>
-          <div class="content-container">
-            <h4>Engineer</h4>
-            <h5><a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">Building Design Department</a>, Takenaka Corporation</h5>
-            <p>April 2017 – March 2018</p>
-          </div>
-        </div>
-        
-        <div class="experience-item">
-          <div class="logo-container">
             <a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">
               <img src="/media/icons/takenaka.png" alt="Takenaka Corporation logo">
             </a>
@@ -141,9 +128,10 @@ sections:
           <div class="content-container">
             <h4>Engineer</h4>
             <h5><a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">Building Design Department</a>, Takenaka Corporation</h5>
-            <p>April 2013 – March 2014</p>
+            <p>April 2017 – March 2018, 2013 – March 2014</p>
           </div>
         </div>
+        
     design:
       columns: '1'
   - block: collection
