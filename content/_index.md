@@ -140,6 +140,7 @@ sections:
         
     design:
       columns: '1'
+      css_class: "fullwidth-section"
   - block: markdown
     design:
       columns: '1'
@@ -194,6 +195,7 @@ sections:
         </div>
     design:
       columns: '1'
+      css_class: "fullwidth-section"
   - block: collection
     design:
       columns: '1'
