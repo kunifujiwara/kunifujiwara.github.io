@@ -38,7 +38,7 @@ profiles:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/kunihiko-fujiwara-45b514271/
   - icon: academicons/google-scholar
-    url: https://scholar.google.co.jp/citations?user=iqZke-8AAAAJ&hl=en
+    url: https://scholar.google.co.jp/citations?user=iqZke-8AAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/my-orcid?orcid=0000-0002-8044-8838
 

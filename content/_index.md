@@ -9,7 +9,7 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: resume-biography-3
+  - block: resume-biography
     id: bio
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
@@ -31,10 +31,6 @@ sections:
           size: cover
           position: center
           parallax: false
-      # Add layout parameters for vertical arrangement
-      layout:
-        type: vertical
-        spacing: 2rem
   - block: markdown
     id: research
     content:
