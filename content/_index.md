@@ -50,46 +50,56 @@ sections:
       title: Experience
       text: |-
         <div class="d-flex mb-4">
-          <img src="/media/icons/ual.png" style="height:60px; margin-right:20px;" alt="Urban Analytics Lab logo">
+          <a href="https://ual.sg/" target="_blank">
+            <img src="/media/icons/ual.png" style="height:60px; margin-right:20px;" alt="Urban Analytics Lab logo">
+          </a>
           <div>
             <h4>Visiting Research Fellow</h4>
-            <h5>Urban Analytics Lab, National University of Singapore</h5>
+            <h5><a href="https://ual.sg/" target="_blank">Urban Analytics Lab</a>, National University of Singapore</h5>
             <p>April 2023 – Present</p>
           </div>
         </div>
         
         <div class="d-flex mb-4">
-          <img src="/media/icons/takenaka.png" style="height:60px; margin-right:20px;" alt="Takenaka Corporation logo">
+          <a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">
+            <img src="/media/icons/takenaka.png" style="height:60px; margin-right:20px;" alt="Takenaka Corporation logo">
+          </a>
           <div>
             <h4>Senior Researcher</h4>
-            <h5>Research & Development Institute, Takenaka Corporation</h5>
+            <h5><a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">Research & Development Institute</a>, Takenaka Corporation</h5>
             <p>April 2018 – Present</p>
           </div>
         </div>
         
         <div class="d-flex mb-4">
-          <img src="/media/icons/takenaka.png" style="height:60px; margin-right:20px;" alt="Takenaka Corporation logo">
+          <a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">
+            <img src="/media/icons/takenaka.png" style="height:60px; margin-right:20px;" alt="Takenaka Corporation logo">
+          </a>
           <div>
             <h4>Engineer</h4>
-            <h5>Building Design Department, Takenaka Corporation</h5>
+            <h5><a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">Building Design Department</a>, Takenaka Corporation</h5>
             <p>April 2017 – March 2018</p>
           </div>
         </div>
         
         <div class="d-flex mb-4">
-          <img src="/media/icons/takenaka.png" style="height:60px; margin-right:20px;" alt="Takenaka Corporation logo">
+          <a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">
+            <img src="/media/icons/takenaka.png" style="height:60px; margin-right:20px;" alt="Takenaka Corporation logo">
+          </a>
           <div>
             <h4>Researcher</h4>
-            <h5>Research & Development Institute, Takenaka Corporation</h5>
+            <h5><a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">Research & Development Institute</a>, Takenaka Corporation</h5>
             <p>April 2014 – March 2017</p>
           </div>
         </div>
         
         <div class="d-flex mb-4">
-          <img src="/media/icons/takenaka.png" style="height:60px; margin-right:20px;" alt="Takenaka Corporation logo">
+          <a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">
+            <img src="/media/icons/takenaka.png" style="height:60px; margin-right:20px;" alt="Takenaka Corporation logo">
+          </a>
           <div>
             <h4>Engineer</h4>
-            <h5>Building Design Department, Takenaka Corporation</h5>
+            <h5><a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">Building Design Department</a>, Takenaka Corporation</h5>
             <p>April 2013 – March 2014</p>
           </div>
         </div>
