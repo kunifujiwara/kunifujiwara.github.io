@@ -50,196 +50,133 @@ sections:
       title: Experience
       text: |-
         <style>
+        /* Custom container for experience and awards sections */
+        .wide-container {
+          max-width: 100%;
+          margin: 0 auto;
+          font-size: 0.9rem;
+        }
+        
         .experience-item {
           display: flex;
           flex-direction: row;
           align-items: center;
-          margin-bottom: 1.5rem;
-          max-width: 100%;
-          width: 100%;
+          margin-bottom: 2rem;
         }
         .logo-container {
-          flex: 0 0 70px;
-          margin-right: 15px;
+          flex: 0 0 80px;
+          margin-right: 20px;
         }
         .logo-container img {
-          width: 50px;
+          width: 60px;
           height: auto;
         }
         .content-container {
           flex: 1;
-          width: 100%;
         }
         .content-container h4 {
           margin-top: 0;
-          margin-bottom: 0.3rem;
-          font-size: 1rem;
+          margin-bottom: 0.5rem;
+          font-size: 1.1rem;
         }
         .content-container h5 {
           margin-top: 0;
-          margin-bottom: 0.3rem;
-          font-size: 0.9rem;
+          margin-bottom: 0.5rem;
+          font-size: 0.95rem;
         }
         .content-container p {
           margin: 0;
           font-size: 0.85rem;
         }
         </style>
-        <style>
-        .experience-item {
-          display: flex !important;
-          flex-direction: row !important;
-          align-items: center !important;
-          margin-bottom: 1.5rem !important;
-          max-width: 100% !important;
-          width: 100% !important;
-        }
-        .logo-container {
-          flex: 0 0 70px !important;
-          margin-right: 15px !important;
-        }
-        .logo-container img {
-          width: 50px !important;
-          height: auto !important;
-        }
-        .content-container {
-          flex: 1 !important;
-          width: 100% !important;
-        }
-        .content-container h4 {
-          margin-top: 0 !important;
-          margin-bottom: 0.3rem !important;
-          font-size: 1.1rem !important;
-        }
-        .content-container h5 {
-          margin-top: 0 !important;
-          margin-bottom: 0.3rem !important;
-          font-size: 1rem !important;
-        }
-        .content-container p {
-          margin: 0 !important;
-          font-size: 0.9rem !important;
-        }
-        </style>
-
-        <div class="experience-item">
-          <div class="logo-container">
-            <a href="https://ual.sg/" target="_blank">
-              <img src="/media/icons/ual.png" alt="Urban Analytics Lab logo">
-            </a>
+        
+        <div class="wide-container" style="max-width: 100%; font-size: 0.9rem;">
+          <div class="experience-item">
+            <div class="logo-container">
+              <a href="https://ual.sg/" target="_blank">
+                <img src="/media/icons/ual.png" alt="Urban Analytics Lab logo">
+              </a>
+            </div>
+            <div class="content-container">
+              <h4>Visiting Research Fellow</h4>
+              <h5><a href="https://ual.sg/" target="_blank">Urban Analytics Lab</a>, National University of Singapore</h5>
+              <p>April 2023 – Present</p>
+            </div>
           </div>
-          <div class="content-container">
-            <h4>Visiting Research Fellow</h4>
-            <h5><a href="https://ual.sg/" target="_blank">Urban Analytics Lab</a>, National University of Singapore</h5>
-            <p>April 2023 – Present</p>
+          
+          <div class="experience-item">
+            <div class="logo-container">
+              <a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">
+                <img src="/media/icons/takenaka.png" alt="Takenaka Corporation logo">
+              </a>
+            </div>
+            <div class="content-container">
+              <h4>Senior Researcher</h4>
+              <h5><a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">Research & Development Institute</a>, Takenaka Corporation</h5>
+              <p>April 2018 – Present</p>
+            </div>
+          </div>
+          
+          <div class="experience-item">
+            <div class="logo-container">
+              <a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">
+                <img src="/media/icons/takenaka.png" alt="Takenaka Corporation logo">
+              </a>
+            </div>
+            <div class="content-container">
+              <h4>Researcher</h4>
+              <h5><a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">Research & Development Institute</a>, Takenaka Corporation</h5>
+              <p>April 2014 – March 2017</p>
+            </div>
+          </div>
+          
+          <div class="experience-item">
+            <div class="logo-container">
+              <a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">
+                <img src="/media/icons/takenaka.png" alt="Takenaka Corporation logo">
+              </a>
+            </div>
+            <div class="content-container">
+              <h4>Engineer</h4>
+              <h5><a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">Building Design Department</a>, Takenaka Corporation</h5>
+              <p>April 2017 – March 2018, 2013 – March 2014</p>
+            </div>
           </div>
         </div>
-        
-        <div class="experience-item">
-          <div class="logo-container">
-            <a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">
-              <img src="/media/icons/takenaka.png" alt="Takenaka Corporation logo">
-            </a>
-          </div>
-          <div class="content-container">
-            <h4>Senior Researcher</h4>
-            <h5><a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">Research & Development Institute</a>, Takenaka Corporation</h5>
-            <p>April 2018 – Present</p>
-          </div>
-        </div>
-        
-        <div class="experience-item">
-          <div class="logo-container">
-            <a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">
-              <img src="/media/icons/takenaka.png" alt="Takenaka Corporation logo">
-            </a>
-          </div>
-          <div class="content-container">
-            <h4>Researcher</h4>
-            <h5><a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">Research & Development Institute</a>, Takenaka Corporation</h5>
-            <p>April 2014 – March 2017</p>
-          </div>
-        </div>
-        
-        <div class="experience-item">
-          <div class="logo-container">
-            <a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">
-              <img src="/media/icons/takenaka.png" alt="Takenaka Corporation logo">
-            </a>
-          </div>
-          <div class="content-container">
-            <h4>Engineer</h4>
-            <h5><a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">Building Design Department</a>, Takenaka Corporation</h5>
-            <p>April 2017 – March 2018, 2013 – March 2014</p>
-          </div>
-        </div>
-        
     design:
       columns: '1'
-      css_class: "fullwidth-section"
   - block: markdown
-    design:
-      columns: '1'
-      css_class: "fullwidth-section"
-    
-    content:
-      title: Awards & Honors
-
     id: awards
     content:
       title: Awards & Honors
       text: |-
         <style>
-        .award-list {
+        /* Custom container for awards section */
+        .award-container {
           max-width: 100%;
+          margin: 0 auto;
         }
-        .award-list p {
-          margin-bottom: 0.4rem;
-          font-size: 0.85rem;
-          line-height: 1.3;
-        }
-        </style>
-        <style>
         .award-list {
-          max-width: 100%;
-          width: 100%;
+          font-size: 0.9rem;
         }
         .award-list p {
           margin-bottom: 0.5rem;
-          font-size: 0.9rem;
-          line-height: 1.4;
-        }
-        </style>
-        <style>
-        .award-list {
-          max-width: 100% !important;
-          width: 100% !important;
-          padding: 0 !important;
-        }
-        .award-list p {
-          margin-bottom: 0.5rem !important;
-          font-size: 1rem !important;
-          line-height: 1.5 !important;
-          max-width: 100% !important;
-          width: 100% !important;
+          font-size: 0.85rem;
         }
         </style>
         
-        <div class="award-list">
-          <p>🏆 Special Encouragement Award, Engineering Advancement Association of Japan, 2023</p>
-          <p>🌟 Technology Award, Heat Island Institute International, 2023</p>
-          <p>🥉 Bronze Award, Urban Data Challenge, 2023</p>
-          <p>📊 Best Poster Award, 17th Conference of Heat Island Institute International, 2022</p>
-          <p>🏅 Award of Excellence, Urban Infrastructure & Technology Promotion Council, 2021</p>
+        <div class="award-container" style="max-width: 100%; font-size: 0.85rem;">
+          <div class="award-list">
+            <p>🏆 Special Encouragement Award, Engineering Advancement Association of Japan, 2023</p>
+            <p>🌟 Technology Award, Heat Island Institute International, 2023</p>
+            <p>🥉 Bronze Award, Urban Data Challenge, 2023</p>
+            <p>📊 Best Poster Award, 17th Conference of Heat Island Institute International, 2022</p>
+            <p>🏅 Award of Excellence, Urban Infrastructure & Technology Promotion Council, 2021</p>
+          </div>
         </div>
     design:
       columns: '1'
-      css_class: "fullwidth-section"
   - block: collection
-    design:
-      columns: '1'
-      css_class: "fullwidth-section"
-    
     id: publications
     content:
       title: Featured Publications
