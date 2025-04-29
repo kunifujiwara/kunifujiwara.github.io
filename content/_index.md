@@ -140,53 +140,17 @@ sections:
       title: Awards & Honors
       text: |-
         <style>
-        .award-item {
-          margin-bottom: 0.75rem;
-          display: flex;
-          align-items: center;
-        }
-        .award-name {
-          font-weight: 600;
-          margin-right: 0.5rem;
-        }
-        .award-org {
-          color: #666;
-          margin-right: 0.5rem;
-        }
-        .award-year {
-          color: #888;
-          font-size: 0.9rem;
+        .award-list p {
+          margin-bottom: 0.5rem;
         }
         </style>
         
-        <div class="award-item">
-          <span class="award-name">Special Encouragement Award,</span>
-          <span class="award-org">Engineering Advancement Association of Japan,</span>
-          <span class="award-year">2023</span>
-        </div>
-        
-        <div class="award-item">
-          <span class="award-name">Technology Award,</span>
-          <span class="award-org">Heat Island Institute International,</span>
-          <span class="award-year">2023</span>
-        </div>
-        
-        <div class="award-item">
-          <span class="award-name">Bronze Award,</span>
-          <span class="award-org">Urban Data Challenge,</span>
-          <span class="award-year">2023</span>
-        </div>
-        
-        <div class="award-item">
-          <span class="award-name">Best Poster Award,</span>
-          <span class="award-org">17th Conference of Heat Island Institute International,</span>
-          <span class="award-year">2022</span>
-        </div>
-        
-        <div class="award-item">
-          <span class="award-name">Award of Excellence,</span>
-          <span class="award-org">Urban Infrastructure & Technology Promotion Council,</span>
-          <span class="award-year">2021</span>
+        <div class="award-list">
+          <p>Special Encouragement Award, Engineering Advancement Association of Japan, 2023</p>
+          <p>Technology Award, Heat Island Institute International, 2023</p>
+          <p>Bronze Award, Urban Data Challenge, 2023</p>
+          <p>Best Poster Award, 17th Conference of Heat Island Institute International, 2022</p>
+          <p>Award of Excellence, Urban Infrastructure & Technology Promotion Council, 2021</p>
         </div>
     design:
       columns: '1'
