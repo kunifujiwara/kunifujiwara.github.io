@@ -31,6 +31,10 @@ sections:
           size: cover
           position: center
           parallax: false
+      # Add layout parameters for vertical arrangement
+      layout:
+        type: vertical
+        spacing: 2rem
   - block: markdown
     id: research
     content:
