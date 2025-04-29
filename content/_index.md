@@ -141,7 +141,7 @@ sections:
       text: |-
         <style>
         .award-list {
-          list-style: none;
+          list-style-type: none;
           padding-left: 0;
         }
         .award-item {
@@ -150,42 +150,48 @@ sections:
           margin-bottom: 0.75rem;
         }
         .award-icon {
-          margin-right: 0.75rem;
-          color: #555;
-          font-size: 1.1rem;
+          width: 20px;
+          height: 20px;
+          margin-right: 12px;
+          opacity: 0.7;
         }
         </style>
         
         <ul class="award-list">
           <li class="award-item">
-            <span class="award-icon">
-              <i class="fas fa-award"></i>
-            </span>
-            <span>Special Encouragement Award, Engineering Advancement Association of Japan, 2023</span>
+            <svg class="award-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+            Special Encouragement Award, Engineering Advancement Association of Japan, 2023
           </li>
           <li class="award-item">
-            <span class="award-icon">
-              <i class="fas fa-trophy"></i>
-            </span>
-            <span>Technology Award, Heat Island Institute International, 2023</span>
+            <svg class="award-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+            Technology Award, Heat Island Institute International, 2023
           </li>
           <li class="award-item">
-            <span class="award-icon">
-              <i class="fas fa-medal"></i>
-            </span>
-            <span>Bronze Award, Urban Data Challenge, 2023</span>
+            <svg class="award-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+            Bronze Award, Urban Data Challenge, 2023
           </li>
           <li class="award-item">
-            <span class="award-icon">
-              <i class="fas fa-certificate"></i>
-            </span>
-            <span>Best Poster Award, 17th Conference of Heat Island Institute International, 2022</span>
+            <svg class="award-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+            Best Poster Award, 17th Conference of Heat Island Institute International, 2022
           </li>
           <li class="award-item">
-            <span class="award-icon">
-              <i class="fas fa-star"></i>
-            </span>
-            <span>Award of Excellence, Urban Infrastructure & Technology Promotion Council, 2021</span>
+            <svg class="award-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+            Award of Excellence, Urban Infrastructure & Technology Promotion Council, 2021
           </li>
         </ul>
     design:
