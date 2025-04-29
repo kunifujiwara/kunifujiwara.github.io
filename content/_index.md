@@ -54,14 +54,15 @@ sections:
           display: flex;
           flex-direction: row;
           align-items: center;
-          margin-bottom: 2rem;
+          margin-bottom: 1.5rem;
+          max-width: 100%;
         }
         .logo-container {
-          flex: 0 0 80px;
-          margin-right: 20px;
+          flex: 0 0 70px;
+          margin-right: 15px;
         }
         .logo-container img {
-          width: 60px;
+          width: 50px;
           height: auto;
         }
         .content-container {
@@ -69,14 +70,17 @@ sections:
         }
         .content-container h4 {
           margin-top: 0;
-          margin-bottom: 0.5rem;
+          margin-bottom: 0.3rem;
+          font-size: 0.95rem;
         }
         .content-container h5 {
           margin-top: 0;
-          margin-bottom: 0.5rem;
+          margin-bottom: 0.3rem;
+          font-size: 0.85rem;
         }
         .content-container p {
           margin: 0;
+          font-size: 0.8rem;
         }
         </style>
 
@@ -135,13 +139,25 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    design:
+      columns: '1'
+      css_class: "fullwidth-section"
+    
+    content:
+      title: Awards & Honors
+
     id: awards
     content:
       title: Awards & Honors
       text: |-
         <style>
+        .award-list {
+          max-width: 100%;
+        }
         .award-list p {
-          margin-bottom: 0.5rem;
+          margin-bottom: 0.4rem;
+          font-size: 0.85rem;
+          line-height: 1.3;
         }
         </style>
         
@@ -155,6 +171,10 @@ sections:
     design:
       columns: '1'
   - block: collection
+    design:
+      columns: '1'
+      css_class: "fullwidth-section"
+    
     id: publications
     content:
       title: Featured Publications
