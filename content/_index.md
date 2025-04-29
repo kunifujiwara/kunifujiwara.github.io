@@ -9,30 +9,13 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: markdown
-    content:
-      title: 'Navigation'
-      text: |-
-        <div class="row justify-content-center">
-          <div class="col-auto">
-            <a href="#bio" class="btn btn-primary m-1">Biography</a>
-            <a href="#research" class="btn btn-primary m-1">Research</a>
-            <a href="#experience" class="btn btn-primary m-1">Experience</a>
-            <a href="#awards" class="btn btn-primary m-1">Awards</a>
-            <a href="#featured-pubs" class="btn btn-primary m-1">Featured Publications</a>
-            <a href="#recent-pubs" class="btn btn-primary m-1">Recent Publications</a>
-            <a href="#talks" class="btn btn-primary m-1">Talks</a>
-            <a href="#patents" class="btn btn-primary m-1">Patents</a>
-          </div>
-        </div>
-    design:
-      columns: '1'
-
   - block: resume-biography-3
     id: bio
     content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
+      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -41,17 +24,17 @@ sections:
       background:
         color: black
         image:
+          # Add your image background to `assets/media/`.
           filename: vegvoxcity.png
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
-
   - block: markdown
     id: research
     content:
-      title: '📚 My Research'
+      title: '📚 Research'
       subtitle: ''
       text: |-
         Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
@@ -61,54 +44,26 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-
-  - block: experience
+  - block: collection
     id: experience
     content:
       title: Experience
-      items:
-        - company: Example Company
-          company_url: ''
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              * Responsibilities include
-              * Leading
-              * Managing
+      filters:
+        folders:
+          - experience
     design:
-      columns: '1'
-
-  - block: markdown
+      view: timeline
+  - block: collection
     id: awards
     content:
-      title: '🏆 Awards & Certifications'
-      text: |-
-        ## Neural Networks and Deep Learning
-        **Coursera** | November 2023
-        [View Certificate](https://www.coursera.org/learn/neural-networks-deep-learning)
-        
-        I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network's architecture; and apply deep learning to your own applications.
-
-        ## Blockchain Fundamentals
-        **edX** | July 2023
-        [View Certificate](https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals)
-        
-        Learned:
-        - Synthesize your own blockchain solutions
-        - Gain an in-depth understanding of the specific mechanics of Bitcoin
-        - Understand Bitcoin's real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin's Proof-of-Work consensus algorithm
-
-        ## Object-Oriented Programming in R
-        **DataCamp** | January 2023
-        [View Certificate](https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r)
-        
-        Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      title: Awards & Honors
+      filters:
+        folders:
+          - award
     design:
-      columns: '1'
-
+      view: compact
   - block: collection
-    id: featured-pubs
+    id: featured-publications
     content:
       title: Featured Publications
       filters:
@@ -118,9 +73,8 @@ sections:
     design:
       view: article-grid
       columns: 2
-
   - block: collection
-    id: recent-pubs
+    id: recent-publications
     content:
       title: Recent Publications
       text: ""
@@ -130,7 +84,6 @@ sections:
         exclude_featured: false
     design:
       view: citation
-
   - block: collection
     id: talks
     content:
@@ -141,7 +94,6 @@ sections:
     design:
       view: article-grid
       columns: 1
-
   - block: collection
     id: patents
     content:
@@ -150,8 +102,7 @@ sections:
         folders:
           - patent
     design:
-      view: citation
-
+      view: compact
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

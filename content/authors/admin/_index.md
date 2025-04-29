@@ -65,28 +65,29 @@ education:
     institution: Tokyo Institute of Technology
     date_start: 2007-04-01
     date_end: 2011-03-31
-
 work:
-  - position: Senior Researcher
-    company_name: Research and Development Institute, Takenaka Corporation
-    company_url: https://www.takenaka.co.jp/takenaka_e/rd/
-    date_start: 2020-09-01
+  - position: Director of Cloud Infrastructure
+    company_name: GenCoin
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-01-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - Research on urban environment simulation and heat mitigation
-      - Development of green infrastructure solutions
-      - Collaboration with academic and industry partners
-  - position: Research Engineer
-    company_name: Research and Development Institute, Takenaka Corporation
-    company_url: https://www.takenaka.co.jp/takenaka_e/rd/
-    date_start: 2013-04-01
-    date_end: 2016-08-31
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Backend Software Engineer
+    company_name: X
+    company_url: ''
+    company_logo: ''
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
       Responsibilities include:
-      - Urban environment analysis and simulation
-      - Development of heat mitigation strategies
-      - Implementation of green infrastructure projects
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -162,8 +163,4 @@ awards:
 
 ## About Me
 
-I am a Senior Researcher at the Research and Development Institute of Takenaka Corporation, specializing in urban environment simulation, heat mitigation, and green infrastructure. My research focuses on developing innovative solutions for sustainable urban development through the integration of environmental engineering and architectural design.
-
-My work combines theoretical knowledge with practical applications, aiming to create more livable and sustainable urban environments. I am particularly interested in the optimization of tree arrangements for heat mitigation and the development of green infrastructure solutions that can effectively address urban heat island effects.
-
-I hold a Doctor of Engineering degree in Urban Environment Engineering from Tokyo Institute of Technology, where I conducted research on the optimization of tree arrangement for heat mitigation under the supervision of Prof. Takashi Asawa.
+Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
