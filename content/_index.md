@@ -134,15 +134,52 @@ sections:
         
     design:
       columns: '1'
-  - block: collection
+  - block: markdown
     id: awards
     content:
       title: Awards & Honors
-      filters:
-        folders:
-          - award
+      text: |-
+        <div class="experience-item">
+          <div class="content-container" style="margin-left: 0;">
+            <h4>Special Encouragement Award</h4>
+            <h5>Engineering Advancement Association of Japan</h5>
+            <p>2023</p>
+          </div>
+        </div>
+        
+        <div class="experience-item">
+          <div class="content-container" style="margin-left: 0;">
+            <h4>Technology Award</h4>
+            <h5>Heat Island Institute International</h5>
+            <p>2023</p>
+          </div>
+        </div>
+        
+        <div class="experience-item">
+          <div class="content-container" style="margin-left: 0;">
+            <h4>Bronze Award</h4>
+            <h5>Urban Data Challenge</h5>
+            <p>2023</p>
+          </div>
+        </div>
+        
+        <div class="experience-item">
+          <div class="content-container" style="margin-left: 0;">
+            <h4>Best Poster Award</h4>
+            <h5>17th Conference of Heat Island Institute International</h5>
+            <p>2022</p>
+          </div>
+        </div>
+        
+        <div class="experience-item">
+          <div class="content-container" style="margin-left: 0;">
+            <h4>Award of Excellence</h4>
+            <h5>Urban Infrastructure & Technology Promotion Council</h5>
+            <p>2021</p>
+          </div>
+        </div>
     design:
-      view: compact
+      columns: '1'
   - block: collection
     id: featured-publications
     content:
