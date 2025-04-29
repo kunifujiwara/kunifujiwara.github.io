@@ -48,7 +48,7 @@ interests:
   - Green Infrastructure
 
 education:
-  - area: Dr.Eng. Urban Environment Engineering
+  - area: DEng Urban Environment Engineering
     institution: Tokyo Institute of Technology
     date_start: 2016-09-01
     date_end: 2020-08-31
