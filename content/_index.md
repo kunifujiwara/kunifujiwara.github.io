@@ -151,29 +151,40 @@ sections:
         }
         .award-icon {
           margin-right: 0.75rem;
-          color: #4caf50;
+          color: #555;
+          font-size: 1.1rem;
         }
         </style>
         
         <ul class="award-list">
           <li class="award-item">
-            <span class="award-icon">🏆</span>
+            <span class="award-icon">
+              <i class="fas fa-award"></i>
+            </span>
             <span>Special Encouragement Award, Engineering Advancement Association of Japan, 2023</span>
           </li>
           <li class="award-item">
-            <span class="award-icon">🏆</span>
+            <span class="award-icon">
+              <i class="fas fa-trophy"></i>
+            </span>
             <span>Technology Award, Heat Island Institute International, 2023</span>
           </li>
           <li class="award-item">
-            <span class="award-icon">🥉</span>
+            <span class="award-icon">
+              <i class="fas fa-medal"></i>
+            </span>
             <span>Bronze Award, Urban Data Challenge, 2023</span>
           </li>
           <li class="award-item">
-            <span class="award-icon">🏅</span>
+            <span class="award-icon">
+              <i class="fas fa-certificate"></i>
+            </span>
             <span>Best Poster Award, 17th Conference of Heat Island Institute International, 2022</span>
           </li>
           <li class="award-item">
-            <span class="award-icon">🏆</span>
+            <span class="award-icon">
+              <i class="fas fa-star"></i>
+            </span>
             <span>Award of Excellence, Urban Infrastructure & Technology Promotion Council, 2021</span>
           </li>
         </ul>
