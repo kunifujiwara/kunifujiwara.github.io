@@ -65,29 +65,28 @@ education:
     institution: Tokyo Institute of Technology
     date_start: 2007-04-01
     date_end: 2011-03-31
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - position: Senior Researcher
+    company_name: Research and Development Institute, Takenaka Corporation
+    company_url: https://www.takenaka.co.jp/takenaka_e/rd/
+    date_start: 2020-09-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Research on urban environment simulation and heat mitigation
+      - Development of green infrastructure solutions
+      - Collaboration with academic and industry partners
+  - position: Research Engineer
+    company_name: Research and Development Institute, Takenaka Corporation
+    company_url: https://www.takenaka.co.jp/takenaka_e/rd/
+    date_start: 2013-04-01
+    date_end: 2016-08-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Urban environment analysis and simulation
+      - Development of heat mitigation strategies
+      - Implementation of green infrastructure projects
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -110,26 +109,24 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Treking
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Bass
         description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+        percent: 50
+        icon: music
+      - name: Painting
         description: ''
-        percent: 80
-        icon: camera
+        percent: 40
+        icon: palette
 
 languages:
-  - name: English
+  - name: Japanese
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: English
+    percent: 70
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -142,7 +139,7 @@ awards:
     awarder: Coursera
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network's architecture; and apply deep learning to your own applications.
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
@@ -152,7 +149,7 @@ awards:
       Learned:
       - Synthesize your own blockchain solutions
       - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+      - Understand Bitcoin's real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin's Proof-of-Work consensus algorithm
   - title: 'Object-Oriented Programming in R'
     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
     certificate_url: https://www.datacamp.com
@@ -165,4 +162,8 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Senior Researcher at the Research and Development Institute of Takenaka Corporation, specializing in urban environment simulation, heat mitigation, and green infrastructure. My research focuses on developing innovative solutions for sustainable urban development through the integration of environmental engineering and architectural design.
+
+My work combines theoretical knowledge with practical applications, aiming to create more livable and sustainable urban environments. I am particularly interested in the optimization of tree arrangements for heat mitigation and the development of green infrastructure solutions that can effectively address urban heat island effects.
+
+I hold a Doctor of Engineering degree in Urban Environment Engineering from Tokyo Institute of Technology, where I conducted research on the optimization of tree arrangement for heat mitigation under the supervision of Prof. Takashi Asawa.

@@ -9,12 +9,30 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: resume-biography-3
+  - block: markdown
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
+      title: 'Navigation'
+      text: |-
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <a href="#bio" class="btn btn-primary m-1">Biography</a>
+            <a href="#research" class="btn btn-primary m-1">Research</a>
+            <a href="#experience" class="btn btn-primary m-1">Experience</a>
+            <a href="#awards" class="btn btn-primary m-1">Awards</a>
+            <a href="#featured-pubs" class="btn btn-primary m-1">Featured Publications</a>
+            <a href="#recent-pubs" class="btn btn-primary m-1">Recent Publications</a>
+            <a href="#talks" class="btn btn-primary m-1">Talks</a>
+            <a href="#patents" class="btn btn-primary m-1">Patents</a>
+          </div>
+        </div>
+    design:
+      columns: '1'
+
+  - block: resume-biography-3
+    id: bio
+    content:
       username: admin
       text: ""
-      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -23,14 +41,15 @@ sections:
       background:
         color: black
         image:
-          # Add your image background to `assets/media/`.
           filename: vegvoxcity.png
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
+
   - block: markdown
+    id: research
     content:
       title: '📚 My Research'
       subtitle: ''
@@ -42,8 +61,41 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
+
+  - block: experience
+    id: experience
+    content:
+      title: Experience
+      items:
+        - company: Example Company
+          company_url: ''
+          location: California
+          date_start: '2021-01-01'
+          date_end: ''
+          description: |2-
+              * Responsibilities include
+              * Leading
+              * Managing
+    design:
+      columns: '1'
+
+  - block: accomplishments
+    id: awards
+    content:
+      title: Awards
+      items:
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2021-01-01'
+          description: ''
+          organization: Example Organization
+          organization_url: ''
+          title: Example Award
+    design:
+      columns: '1'
+
   - block: collection
-    id: papers
+    id: featured-pubs
     content:
       title: Featured Publications
       filters:
@@ -53,7 +105,9 @@ sections:
     design:
       view: article-grid
       columns: 2
+
   - block: collection
+    id: recent-pubs
     content:
       title: Recent Publications
       text: ""
@@ -63,6 +117,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
+
   - block: collection
     id: talks
     content:
@@ -73,35 +128,17 @@ sections:
     design:
       view: article-grid
       columns: 1
+
   - block: collection
-    id: news
+    id: patents
     content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
+      title: Patents
       filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+        folders:
+          - patent
     design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      view: citation
+
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
