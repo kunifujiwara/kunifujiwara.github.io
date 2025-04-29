@@ -35,6 +35,20 @@ html {
   width: 95% !important;
 }
 
+/* Make all sections wider by default */
+.container {
+  max-width: 1400px !important;
+  width: 90% !important;
+}
+
+/* Ultra-wide sections for experience and awards */
+.fullwidth-section .container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
 /* Experience section styling */
 .experience-item {
   display: flex;
@@ -88,4 +102,24 @@ html {
   margin-bottom: 0.5rem;
   font-size: 1rem;
   line-height: 1.5;
+}
+
+/* Make content use maximum available width */
+#experience .article-container,
+#awards .article-container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Ensure content spans full width */
+#experience .article-style,
+#awards .article-style {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Override potential theme width limitations */
+.universal-wrapper {
+  max-width: 100% !important;
+  width: 100% !important;
 } 

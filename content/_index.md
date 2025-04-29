@@ -85,6 +85,42 @@ sections:
           font-size: 0.85rem;
         }
         </style>
+        <style>
+        .experience-item {
+          display: flex !important;
+          flex-direction: row !important;
+          align-items: center !important;
+          margin-bottom: 1.5rem !important;
+          max-width: 100% !important;
+          width: 100% !important;
+        }
+        .logo-container {
+          flex: 0 0 70px !important;
+          margin-right: 15px !important;
+        }
+        .logo-container img {
+          width: 50px !important;
+          height: auto !important;
+        }
+        .content-container {
+          flex: 1 !important;
+          width: 100% !important;
+        }
+        .content-container h4 {
+          margin-top: 0 !important;
+          margin-bottom: 0.3rem !important;
+          font-size: 1.1rem !important;
+        }
+        .content-container h5 {
+          margin-top: 0 !important;
+          margin-bottom: 0.3rem !important;
+          font-size: 1rem !important;
+        }
+        .content-container p {
+          margin: 0 !important;
+          font-size: 0.9rem !important;
+        }
+        </style>
 
         <div class="experience-item">
           <div class="logo-container">
@@ -176,13 +212,16 @@ sections:
         </style>
         <style>
         .award-list {
-          max-width: 100%;
-          width: 100%;
+          max-width: 100% !important;
+          width: 100% !important;
+          padding: 0 !important;
         }
         .award-list p {
-          margin-bottom: 0.5rem;
-          font-size: 0.9rem;
-          line-height: 1.4;
+          margin-bottom: 0.5rem !important;
+          font-size: 1rem !important;
+          line-height: 1.5 !important;
+          max-width: 100% !important;
+          width: 100% !important;
         }
         </style>
         
