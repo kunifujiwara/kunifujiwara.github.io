@@ -12,7 +12,7 @@ author_notes:
 - ""
 - ""
 - ""
-date: "2024-01-01T00:00:00Z"
+date: "2024-11-01T00:00:00Z"
 doi: "10.1016/j.scs.2024.105733"
 
 # Schedule page publish date (NOT publication's date).
@@ -80,13 +80,13 @@ slides: ""
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
-## Highlights
+<!-- ## Highlights
 
 - Prediction of microclimate parameters using street-level and satellite imagery.
 - Multimodal prediction model combining LSTM and ResNet-18 architectures.
 - Collecting and using microclimate data, street-level imagery, and satellite imagery.
 - High accuracy: RMSE at 0.95°C (T_air), 2.57% (RH), 0.31 m/s (ν), 225 W/m² (GHI).
-- Street-level and satellite imagery contribute to improving accuracy.
+- Street-level and satellite imagery contribute to improving accuracy. -->
 
 <!-- ## Overview
 

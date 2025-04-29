@@ -10,16 +10,16 @@ author_notes:
 - ""
 - ""
 - ""
-date: "2024-01-01T00:00:00Z"
+date: "2024-12-01T00:00:00Z"
 doi: "10.1016/j.buildenv.2024.112071"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-01-01T00:00:00Z"
+publishDate: "2024-12-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+publication_types: ["preprint"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*Building and Environment, 266*"
@@ -78,13 +78,13 @@ slides: ""
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
-## Highlights
+<!-- ## Highlights
 
 - Advancing estimation of sky view factor and solar irradiance using panoramic imagery.
 - Detecting shading objects based on semantic segmentation of street-level panoramas.
 - Estimating transmittance of tree canopies using image binarization.
 - Solar irradiance estimated with MAE of 77.8 Wm$^{-2}$, RMSE of 105.0 Wm$^{-2}$, and R$^2$ of 0.90.
-- Demonstration of high-resolution mapping and walking route optimization.
+- Demonstration of high-resolution mapping and walking route optimization. -->
 
 <!-- ## Overview
 
