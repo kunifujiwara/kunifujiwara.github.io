@@ -11,7 +11,7 @@ author_notes:
 - ""
 - ""
 date: "2024-12-01T00:00:00Z"
-doi: "10.1016/j.buildenv.2024.112071"
+# doi: "10.1016/j.buildenv.2024.112071"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-12-01T00:00:00Z"
@@ -42,8 +42,8 @@ featured: true
 
 links:
 - name: "DOI"
-  url: "10.1016/j.buildenv.2024.112071"
-url_pdf: https://doi.org/10.1016/j.buildenv.2024.112071
+  url: "https://doi.org/10.1016/j.buildenv.2024.112071"
+url_pdf: 'https://www.sciencedirect.com/science/article/pii/S0360132324009132/pdfft?md5=5f59e29c7e226798860a0357ab5e0859&pid=1-s2.0-S0360132324009132-main.pdf'
 url_code: 'https://github.com/kunifujiwara/TreeShadeMapper'
 url_dataset: ''
 url_poster: ''
