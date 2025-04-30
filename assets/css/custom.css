@@ -7,7 +7,7 @@ html {
   top: 0;
   width: 100%;
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -22,6 +22,19 @@ html {
 
 .nav-link:hover {
   color: #007bff;
+}
+
+/* Dark mode styles */
+[data-scheme="dark"] .navbar {
+  background-color: rgb(26, 32, 44);
+}
+
+[data-scheme="dark"] .nav-link {
+  color: #e2e8f0;
+}
+
+[data-scheme="dark"] .nav-link:hover {
+  color: #63b3ed;
 }
 
 .section {
