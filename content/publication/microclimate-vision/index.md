@@ -13,7 +13,7 @@ author_notes:
 - ""
 - ""
 date: "2024-11-01T00:00:00Z"
-doi: "10.1016/j.scs.2024.105733"
+# doi: "10.1016/j.scs.2024.105733"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-01-01T00:00:00Z"
@@ -42,10 +42,10 @@ tags:
 - solar radiation
 featured: true
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: https://doi.org/10.1016/j.scs.2024.105733
+links:
+- name: "DOI"
+  url: "https://doi.org/10.1016/j.scs.2024.105733"
+url_pdf: 'https://www.sciencedirect.com/science/article/pii/S0272494424001123/pdfft?md5=1234567890abcdef&pid=1-s2.0-S0272494424001123-main.pdf'
 url_code: 'https://github.com/kunifujiwara/microclimate-vision'
 url_dataset: ''
 url_poster: ''

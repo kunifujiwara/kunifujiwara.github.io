@@ -21,7 +21,7 @@ author_notes:
 - ""
 - ""
 date: "2025-07-01T00:00:00Z"
-doi: "10.48550/arXiv.2504.13934"
+# doi: "10.48550/arXiv.2504.13934"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-12-01T00:00:00Z"
@@ -50,10 +50,10 @@ tags:
 - View factor
 featured: true
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: https://arxiv.org/abs/2504.13934
+links:
+- name: "DOI"
+  url: "https://doi.org/10.48550/arXiv.2504.13934"
+url_pdf: 'https://arxiv.org/pdf/2504.13934.pdf'
 url_code: 'https://github.com/kunifujiwara/VoxCity'
 url_dataset: ''
 url_poster: ''

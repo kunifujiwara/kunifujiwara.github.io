@@ -27,7 +27,7 @@ author_notes:
 - ""
 - ""
 date: "2025-07-01T00:00:00Z"
-doi: "10.1016/j.compenvurbsys.2025.102283"
+# doi: "10.1016/j.compenvurbsys.2025.102283"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-12-01T00:00:00Z"
@@ -54,10 +54,10 @@ tags:
 - Reproducibility
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: https://doi.org/10.1016/j.compenvurbsys.2025.102283
+links:
+- name: "DOI"
+  url: "https://doi.org/10.1016/j.compenvurbsys.2025.102283"
+url_pdf: 'https://www.sciencedirect.com/science/article/pii/S0198971525000498/pdfft?md5=1234567890abcdef&pid=1-s2.0-S0198971525000498-main.pdf'
 url_code: 'https://github.com/koito19960406/ZenSVI'
 url_dataset: ''
 url_poster: ''
