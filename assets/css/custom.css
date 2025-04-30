@@ -24,17 +24,26 @@ html {
   color: #007bff;
 }
 
-/* Dark mode styles */
-[data-scheme="dark"] .navbar {
-  background-color: rgb(26, 32, 44);
+/* Dark mode styles - using multiple selectors for better compatibility */
+[data-scheme="dark"] .navbar,
+.dark .navbar,
+html[data-dark="true"] .navbar,
+body.dark .navbar {
+  background-color: rgb(26, 32, 44) !important;
 }
 
-[data-scheme="dark"] .nav-link {
-  color: #e2e8f0;
+[data-scheme="dark"] .nav-link,
+.dark .nav-link,
+html[data-dark="true"] .nav-link,
+body.dark .nav-link {
+  color: #e2e8f0 !important;
 }
 
-[data-scheme="dark"] .nav-link:hover {
-  color: #63b3ed;
+[data-scheme="dark"] .nav-link:hover,
+.dark .nav-link:hover,
+html[data-dark="true"] .nav-link:hover,
+body.dark .nav-link:hover {
+  color: #63b3ed !important;
 }
 
 .section {
