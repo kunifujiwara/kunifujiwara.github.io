@@ -151,31 +151,37 @@ sections:
       title: Awards & Honors
       text: |-
         <style>
-        /* Custom container for awards section */
-        .award-container {
-          max-width: 100%;
-          margin: 0 auto;
-        }
-        .award-list {
-          font-size: 0.9rem;
-        }
-        .award-list p {
-          margin-bottom: 0.5rem;
-          font-size: 0.85rem;
-        }
+          /* Remove default bullets and align icon + text on one line */
+          .award-list{
+            list-style:none;
+            padding-left:0;
+          }
+          .award-list li{
+            display:flex;
+            align-items:center;
+            gap:.4rem;        /* space between icon and text */
+            margin-bottom:.5rem;
+          }
         </style>
-        
-        <div class="award-container" style="max-width: 100%; font-size: 0.85rem;">
-          <div class="award-list">
-            <p>🏆 Special Encouragement Award, Engineering Advancement Association of Japan, 2023</p>
-            <p>🌟 Technology Award, Heat Island Institute International, 2023</p>
-            <p>🥉 Bronze Award, Urban Data Challenge, 2023</p>
-            <p>📊 Best Poster Award, 17th Conference of Heat Island Institute International, 2022</p>
-            <p>🏅 Award of Excellence, Urban Infrastructure & Technology Promotion Council, 2021</p>
-          </div>
-        </div>
+
+        <ul class="award-list">
+          <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
+              Special Encouragement Award, Engineering Advancement Association of Japan, 2023</li>
+
+          <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
+              Technology Award, Heat Island Institute International, 2023</li>
+
+          <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
+              Bronze Award, Urban Data Challenge, 2023</li>
+
+          <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
+              Best Poster Award, 17th Conference of Heat Island Institute International, 2022</li>
+
+          <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
+              Award of Excellence, Urban Infrastructure & Technology Promotion Council, 2021</li>
+        </ul>
     design:
-      columns: '1'
+      columns: "1"
   - block: collection
     id: publications
     content:
