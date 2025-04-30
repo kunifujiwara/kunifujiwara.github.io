@@ -215,22 +215,13 @@ sections:
             margin-bottom:.8rem;
             font-size: 0.85rem;
           }
-          .talk-type {
-            display: inline-block;
-            margin-left: 0.3rem;
-            padding: 0.1rem 0.3rem;
-            border-radius: 3px;
-            font-size: 0.7rem;
-            background-color: #e6f3ff;
-            color: #0366d6;
-          }
         </style>
         <div class="wide-container" style="max-width: 100%; font-size: 0.9rem;">
           <ul class="talks-list">
-            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} Keynote speaker, Urban-M4 Symposium, Feb. 24, 2025 <span class="talk-type">Keynote</span></li>
-            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} Guest speaker, Prime Seminar, Heat Island Institute International, Mar. 22, 2024 <span class="talk-type">Guest</span></li>
-            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} Guest speaker, Discussion seminar, Climate Change AI, Oct. 11, 2024 <span class="talk-type">Guest</span></li>
-            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} Guest speaker, Social Design FS Seminar, Yokohama National University, Oct. 18, 2024 <span class="talk-type">Guest</span></li>
+            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} Keynote speaker, Urban-M4 Symposium, Feb. 24, 2025</li>
+            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} Guest speaker, Prime Seminar, Heat Island Institute International, Mar. 22, 2024</li>
+            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} Guest speaker, Discussion seminar, Climate Change AI, Oct. 11, 2024</li>
+            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} Guest speaker, Social Design FS Seminar, Yokohama National University, Oct. 18, 2024</li>
           </ul>
         </div>
     design:
