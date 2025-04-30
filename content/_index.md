@@ -99,7 +99,7 @@ sections:
             </div>
             <div class="content-container">
               <h4>Visiting Research Fellow</h4>
-              <h5><a href="https://ual.sg/" target="_blank">Urban Analytics Lab</a>, National University of Singapore</h5>
+              <h5><a href="https://ual.sg/" target="_blank">Urban Analytics Lab</a>, <a href="https://www.nus.edu.sg/" target="_blank">National University of Singapore</a></h5>
               <p>April 2023 – Present</p>
             </div>
           </div>
@@ -112,7 +112,7 @@ sections:
             </div>
             <div class="content-container">
               <h4>Senior Researcher</h4>
-              <h5><a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">Research & Development Institute</a>, Takenaka Corporation</h5>
+              <h5><a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">Research & Development Institute</a>, <a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">Takenaka Corporation</a></h5>
               <p>April 2018 – Present</p>
             </div>
           </div>
@@ -125,7 +125,7 @@ sections:
             </div>
             <div class="content-container">
               <h4>Researcher</h4>
-              <h5><a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">Research & Development Institute</a>, Takenaka Corporation</h5>
+              <h5><a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">Research & Development Institute</a>, <a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">Takenaka Corporation</a></h5>
               <p>April 2014 – March 2017</p>
             </div>
           </div>
@@ -155,31 +155,35 @@ sections:
           .award-list{
             list-style:none;
             padding-left:0;
+            font-size: 0.9rem;
           }
           .award-list li{
             display:flex;
             align-items:center;
             gap:.4rem;        /* space between icon and text */
             margin-bottom:.5rem;
+            font-size: 0.85rem;
           }
         </style>
 
-        <ul class="award-list">
-          <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
-              Special Encouragement Award, Engineering Advancement Association of Japan, 2023</li>
+        <div class="wide-container" style="max-width: 100%; font-size: 0.9rem;">
+          <ul class="award-list">
+            <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
+                Special Encouragement Award, Engineering Advancement Association of Japan, 2023</li>
 
-          <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
-              Technology Award, Heat Island Institute International, 2023</li>
+            <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
+                Technology Award, Heat Island Institute International, 2023</li>
 
-          <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
-              Bronze Award, Urban Data Challenge, 2023</li>
+            <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
+                Bronze Award, Urban Data Challenge, 2023</li>
 
-          <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
-              Best Poster Award, 17th Conference of Heat Island Institute International, 2022</li>
+            <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
+                Best Poster Award, 17th Conference of Heat Island Institute International, 2022</li>
 
-          <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
-              Award of Excellence, Urban Infrastructure & Technology Promotion Council, 2021</li>
-        </ul>
+            <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}}
+                Award of Excellence, Urban Infrastructure & Technology Promotion Council, 2021</li>
+          </ul>
+        </div>
     design:
       columns: "1"
   - block: collection
