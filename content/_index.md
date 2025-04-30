@@ -161,7 +161,7 @@ sections:
             align-items:center;
             gap:.4rem;        /* space between icon and text */
             margin-bottom:.5rem;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
           }
         </style>
         <div class="wide-container" style="max-width: 100%; font-size: 0.9rem;">
@@ -213,7 +213,7 @@ sections:
             align-items:center;
             gap:.4rem;        /* space between icon and text */
             margin-bottom:.8rem;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
           }
         </style>
         <div class="wide-container" style="max-width: 100%; font-size: 0.9rem;">
@@ -242,7 +242,7 @@ sections:
             align-items:center;
             gap:.4rem;        /* space between icon and text */
             margin-bottom:.8rem;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
           }
           .patent-status {
             display: inline-block;
