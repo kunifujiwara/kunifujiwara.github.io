@@ -166,4 +166,4 @@ awards:
 
 ## About Me
 
-I am a researcher specializing in urban environmental engineering. My work focuses on the intersection of urban microclimate, pedestrian comfort, and 3D geospatial analysis. I develop novel approaches to understand how urban morphology influences thermal experiences and walkability in cities, using advanced data collection methods including open geospatial data and street view imagery.
+I am a researcher in urban environmental engineering, focusing on the intersection of urban microclimate, thermal comfort, and 3D morphology such as tree arrangements and building configurations. I develop novel approaches to understand how urban morphology influences thermal stress and perception in cities, using advanced analytical methods that leverage physical simulations, field measurements, computer vision, machine learning, and open geospatial data. My work spans from academic research to the implementation of innovative technologies in real-world urban and architectural planning projects.
