@@ -44,8 +44,11 @@ profiles:
 
 interests:
   - Urban Environment Simulation
+  - Microclimate
   - Heat Mitigation
   - Green Infrastructure
+  - Street View Imagery
+  - 3D City Model
 
 education:
   - area: DEng Urban Environment Engineering
