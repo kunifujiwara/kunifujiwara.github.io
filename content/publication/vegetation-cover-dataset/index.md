@@ -23,7 +23,7 @@ publication_types: ["article-journal"]
 publication: "*AIJ Journal of Technology and Design, 28(68), 521-526*"
 publication_short: ""
 
-abstract: ""
+abstract: "Although the percent of green space is the most frequently used index for quantifying urban green, it is currently unavailable in most cities in Japan. Here we provide an open dataset of the index for each town block across the country based on Sentinel-2 satellite images in Google Earth Engine. The dataset is calibrated and validated with airborne datasets obtained in nine cities in Tokyo. The precision of our dataset is 2.8%pt in RMSE for eight cities out of the nine. One exception shows significant bias, but it is most likely due to differences in the definition of green space."
 
 # Summary. An optional shortened abstract.
 # summary: 
@@ -36,10 +36,10 @@ tags:
 - remote sensing
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: ""
+links:
+- name: "DOI"
+  url: "https://doi.org/10.3130/aijt.28.521"
+url_pdf: 'https://kunifujiwara.github.io/publication/vegetation-cover-dataset\2022_vegetation_cover.pdf'
 url_code: ""
 url_dataset: ""
 url_poster: ""

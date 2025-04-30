@@ -57,7 +57,7 @@ url_video: ""
 image:
   caption: 'Optimization of tree arrangement for urban heat adaptation'
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

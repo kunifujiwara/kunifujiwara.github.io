@@ -52,7 +52,7 @@ tags:
 - Computer Vision
 - FAIR
 - Reproducibility
-featured: false
+featured: true
 
 links:
 - name: "DOI"

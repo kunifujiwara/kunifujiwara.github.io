@@ -34,7 +34,7 @@ tags:
 - multi-objective optimization
 - thermal environment
 - landscape design
-featured: false
+featured: true
 
 links:
 - name: "DOI"
