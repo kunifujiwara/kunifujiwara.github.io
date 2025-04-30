@@ -41,7 +41,7 @@ profiles:
     url: https://scholar.google.co.jp/citations?user=iqZke-8AAAAJ&hl=en
     rel: external nofollow noopener
   - icon: academicons/orcid
-    url: https://orcid.org/my-orcid?orcid=0000-0002-8044-8838
+    url: https://orcid.org/0000-0002-8044-8838
 
 interests:
   - Urban Environment Simulation
