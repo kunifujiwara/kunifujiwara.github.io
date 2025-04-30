@@ -25,7 +25,7 @@ publication_types: ["article-journal"]
 publication: "*Journal of Environmental Engineering (Transactions of AIJ), 81, 235-245*"
 publication_short: ""
 
-abstract: ""
+abstract: "This study quantifies the convective heat transfer coefficient (CHTC) of the entire crown of Zelkova serrata under outdoor conditions. The CHTC is determined from whole-tree heat balances for two individual trees which differ in their transpiration rate. The whole-tree transpiration rate of the irrigated tree was measured by a highly accurate, large weighing lysimeter, while the leaf temperatures were measured by infrared thermography. The estimated CHTC was hc = 7.9 U + 17.2 (R² = 0.56, U: representative wind speed for the site) for the entire crown and hc = 8.3 u + 18.2 (R² = 0.77, u: wind speed near the leaf) for the individual leaf. The CHTCs were identified as being double the value given by the Jürges formula, due to the size and amount of flutter of the leaves."
 
 # Summary. An optional shortened abstract.
 # summary: 
@@ -38,9 +38,9 @@ tags:
 - urban climate
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
+links:
+- name: "DOI"
+  url: "https://doi.org/10.3130/aije.81.235"
 url_pdf: ""
 url_code: ""
 url_dataset: ""

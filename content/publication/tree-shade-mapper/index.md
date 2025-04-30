@@ -43,7 +43,7 @@ featured: true
 links:
 - name: "DOI"
   url: "https://doi.org/10.1016/j.buildenv.2024.112071"
-url_pdf: 'https://www.sciencedirect.com/science/article/pii/S0360132324009132/pdfft?md5=5f59e29c7e226798860a0357ab5e0859&pid=1-s2.0-S0360132324009132-main.pdf'
+url_pdf: '2024_tree_shade.pdf'
 url_code: 'https://github.com/kunifujiwara/TreeShadeMapper'
 url_dataset: ''
 url_poster: ''
