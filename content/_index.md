@@ -161,10 +161,10 @@ sections:
             align-items:center;
             gap:.4rem;        /* space between icon and text */
             margin-bottom:.5rem;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
           }
         </style>
-        <div class="wide-container" style="max-width: 100%; font-size: 0.9rem;">
+        <div class="wide-container" style="max-width: 100%; font-size: 0.95rem;">
           <ul class="award-list">
             <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}} Special Encouragement Award, Engineering Advancement Association of Japan, 2023</li>
             <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}} Technology Award, Heat Island Institute International, 2023</li>
@@ -213,10 +213,10 @@ sections:
             align-items:center;
             gap:.4rem;        /* space between icon and text */
             margin-bottom:.8rem;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
           }
         </style>
-        <div class="wide-container" style="max-width: 100%; font-size: 0.9rem;">
+        <div class="wide-container" style="max-width: 100%; font-size: 0.95rem;">
           <ul class="talks-list">
             <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} Keynote speaker, Urban-M4 Symposium, Feb. 24, 2025</li>
             <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} Guest speaker, Prime Seminar, Heat Island Institute International, Mar. 22, 2024</li>
@@ -242,7 +242,7 @@ sections:
             align-items:center;
             gap:.4rem;        /* space between icon and text */
             margin-bottom:.8rem;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
           }
           .patent-status {
             display: inline-block;
@@ -260,7 +260,7 @@ sections:
             color: #856404;
           }
         </style>
-        <div class="wide-container" style="max-width: 100%; font-size: 0.9rem;">
+        <div class="wide-container" style="max-width: 100%; font-size: 0.95rem;">
           <ul class="patent-list">
             <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2024-176023/11/ja" target="_blank">Ground Heat Utilization Cooling Structure</a> <span class="patent-status patent-pending">Pending</span></li>
             <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2024-047391/11/ja" target="_blank">Water Level Estimation Device and Water Level Estimation Program</a> <span class="patent-status patent-pending">Pending</span></li>
