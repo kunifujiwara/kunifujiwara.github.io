@@ -1,0 +1,482 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot, % set margins without considering header and footer
+    top=2 cm, % seperation between body and page edge from the top
+    bottom=2 cm, % seperation between body and page edge from the bottom
+    left=2 cm, % seperation between body and page edge from the left
+    right=2 cm, % seperation between body and page edge from the right
+    footskip=1.0 cm, % seperation between body and footer
+    % showframe % for debugging 
+]{geometry} % for adjusting page geometry
+\usepackage[explicit]{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
+\definecolor{primaryColor}{RGB}{0, 79, 144} % define primary color
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={Kunihiko Fujiwara's CV},
+    pdfauthor={Kunihiko Fujiwara},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage{changepage} % for one column entries (adjustwidth environment)
+\usepackage{paracol} % for two and three column entries
+\usepackage{ifthen} % for conditional statements
+\usepackage{needspace} % for avoiding page brake right after the section title
+\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
+
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage[default, type1]{sourcesanspro} 
+
+% Some settings:
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+\pagestyle{empty} % no header or footer
+\setcounter{secnumdepth}{0} % no section numbering
+\setlength{\parindent}{0pt} % no indentation
+\setlength{\topskip}{0pt} % no top skip
+\setlength{\columnsep}{0.15cm} % set column seperation
+\makeatletter
+\let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
+\patchcmd{\ps@customFooterStyle}{\thepage}{
+    \color{gray}\textit{\small Kunihiko Fujiwara - Page \thepage{} of \pageref*{LastPage}}
+}{}{} % replace number by desired string
+\makeatother
+\pagestyle{customFooterStyle}
+
+\titleformat{\section}{
+    % avoid page braking right after the section title
+    \needspace{4\baselineskip}
+    % make the font size of the section title large and color it with the primary color
+    \Large\color{primaryColor}
+}{
+}{
+}{
+    % print bold title, give 0.15 cm space and draw a line of 0.8 pt thickness
+    % from the end of the title to the end of the body
+    \textbf{#1}\hspace{0.15cm}\titlerule[0.8pt]\hspace{-0.1cm}
+}[] % section title formatting
+
+\titlespacing{\section}{
+    % left space:
+    -1pt
+}{
+    % top space:
+    0.3 cm
+}{
+    % bottom space:
+    0.2 cm
+} % section title spacing
+
+% \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0.4 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights for bullet entries
+
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0.2 cm + 0.00001 cm
+    }{
+        0.2 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} % new environment for one column entries
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{threecolentry}[3][]{
+    \onecolentry
+    \def\thirdColumn{#3}
+    \setcolumnwidth{1 cm, \fill, 4.5 cm}
+    \begin{paracol}{3}
+    {\raggedright #2} \switchcolumn
+}{
+    \switchcolumn \raggedleft \thirdColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for three column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\color{primaryColor}\linespread{1.5}
+}{
+    \par\kern\topsep
+} % new environment for the header
+
+\newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
+  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+    \put(
+        \LenToUnit{\paperwidth-2 cm-0.2 cm+0.05cm},
+        \LenToUnit{\paperheight-1.0 cm}
+    ){\vtop{{\null}\makebox[0pt][c]{
+        \small\color{gray}\textit{Last updated in September 2024}\hspace{\widthof{Last updated in September 2024}}
+    }}}%
+  }%
+}%
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% new command for external links:
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
+
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{}
+
+    \placelastupdatedtext
+    \begin{header}
+        \fontsize{30 pt}{30 pt}
+        \textbf{Kunihiko Fujiwara}
+
+        \vspace{0.3 cm}
+
+        \normalsize
+        \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Japan}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{mailto:fujiwara.kunihiko@takenaka.co.jp}{{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}fujiwara.kunihiko@takenaka.co.jp}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{https://kunifujiwara.github.io/}{{\footnotesize\faLink}\hspace*{0.13cm}kunifujiwara.github.io}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/kunihiko-fujiwara-45b514271/}{{\footnotesize\faLinkedinIn}\hspace*{0.13cm}kunihiko-fujiwara}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{https://github.com/kunifujiwara}{{\footnotesize\faGithub}\hspace*{0.13cm}kunifujiwara}}%
+    \end{header}
+
+    \vspace{0.3 cm - 0.3 cm}
+
+
+    \section{Summary}
+
+    \begin{onecolentry}
+        Senior researcher specializing in urban environmental engineering with expertise in urban microclimate, thermal comfort, and 3D morphology analysis. Applies advanced methodologies combining physical simulations, field measurements, computer vision, machine learning, and geospatial data analysis to investigate the relationship between urban morphology and thermal environment. Research contributions span from fundamental academic investigations to the practical implementation of innovative technologies in urban planning and architectural design. Current focus includes developing digital twin solutions for climate adaptation, optimizing green infrastructure, and creating computational tools for thermal comfort assessment.
+    \end{onecolentry}
+
+    \section{Research Interests}
+
+    \begin{onecolentry}
+        Urban Environment Simulation, Microclimate, Heat Mitigation, Green Infrastructure, Street View Imagery, 3D City Model
+    \end{onecolentry}
+    
+    \section{Education}
+
+    \begin{threecolentry}{\textbf{DEng}}{
+        Sept 2016 – Aug 2020
+    }
+        \textbf{Tokyo Institute of Technology}, Urban Environment Engineering
+        \begin{highlights}
+            \item Thesis on optimization of tree arrangement for heat mitigation.
+            \item Supervised by Prof. Takashi Asawa.
+        \end{highlights}
+    \end{threecolentry}
+
+    \begin{threecolentry}{\textbf{MEng}}{
+        Apr 2011 – Mar 2013
+    }
+        \textbf{Tokyo Institute of Technology}, Urban Environment Engineering
+    \end{threecolentry}
+
+    \begin{threecolentry}{\textbf{BEng}}{
+        Apr 2007 – Mar 2011
+    }
+        \textbf{Tokyo Institute of Technology}, Architecture
+    \end{threecolentry}
+    
+    \section{Experience}
+
+    \begin{twocolentry}{
+        Singapore
+
+        Apr 2023 – Present
+    }
+        \textbf{Visiting Research Fellow}
+        \begin{highlights}
+            \item Urban Analytics Lab, National University of Singapore
+        \end{highlights}
+    \end{twocolentry}
+
+    \begin{twocolentry}{
+        Japan
+
+        Apr 2018 – Present
+    }
+        \textbf{Senior Researcher}
+        \begin{highlights}
+            \item Research \& Development Institute, Takenaka Corporation
+            \item Conduct research on urban environmental engineering and develop innovative technologies for urban planning
+        \end{highlights}
+    \end{twocolentry}
+
+    \begin{twocolentry}{
+        Japan
+
+        Apr 2014 – Mar 2017
+    }
+        \textbf{Researcher}
+        \begin{highlights}
+            \item Research \& Development Institute, Takenaka Corporation
+        \end{highlights}
+    \end{twocolentry}
+
+    \begin{twocolentry}{
+        Japan
+
+        Apr 2017 – Mar 2018, 2013 – Mar 2014
+    }
+        \textbf{Building Equipment Engineer}
+        \begin{highlights}
+            \item Building Design Department, Takenaka Corporation
+        \end{highlights}
+    \end{twocolentry}
+
+    \section{Awards}
+
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
+            \item \textbf{Special Encouragement Award} (2023), Engineering Advancement Association of Japan
+            \item \textbf{Technology Award} (2023), Heat Island Institute International
+            \item \textbf{Bronze Award} (2023), Urban Data Challenge
+            \item \textbf{Best Poster Award} (2022), 17th Conference of Heat Island Institute International
+            \item \textbf{Award of Excellence} (2021), Urban Infrastructure \& Technology Promotion Council
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
+
+    \section{Publications}
+
+    \begin{samepage}
+        \begin{twocolentry}{
+            2025
+        }
+            \textbf{VoxCity: A Seamless Framework for Open Geospatial Data Integration, Grid-Based Semantic 3D City Model Generation, and Urban Environment Simulation}
+            \vspace{0.10 cm}
+            \mbox{\textbf{Kunihiko Fujiwara}}, \mbox{Ryuta Tsurumi}, \mbox{Tomoki Kiyono}, \mbox{Zicheng Fan}, \mbox{Xiucheng Liang}, \mbox{Binyu Lei}, \mbox{Winston Yap}, \mbox{Koichi Ito}, \mbox{Filip Biljecki}
+            \vspace{0.10 cm}
+            arXiv preprint arXiv:2504.13934\\
+            DOI: \href{https://doi.org/10.48550/arXiv.2504.13934}{10.48550/arXiv.2504.13934}
+        \end{twocolentry}
+    \end{samepage}
+
+    \vspace{0.4 cm}
+
+    \begin{samepage}
+        \begin{twocolentry}{
+            2025
+        }
+            \textbf{ZenSVI: An open-source software for the integrated acquisition, processing and analysis of street view imagery towards scalable urban science}
+            \vspace{0.10 cm}
+            \mbox{Koichi Ito}, \mbox{Yihan Zhu}, \mbox{Mahmoud Abdelrahman}, \mbox{Xiucheng Liang}, \mbox{Zicheng Fan}, \mbox{Yujun Hou}, \mbox{Tianhong Zhao}, \mbox{Rui Ma}, \mbox{\textbf{Kunihiko Fujiwara}}, \mbox{Jiani Ouyang}, \mbox{Matias Quintana}, \mbox{Filip Biljecki}
+            \vspace{0.10 cm}
+            Computers, Environment and Urban Systems, 119\\
+            DOI: \href{https://doi.org/10.1016/j.compenvurbsys.2025.102283}{10.1016/j.compenvurbsys.2025.102283}
+        \end{twocolentry}
+    \end{samepage}
+
+    \vspace{0.4 cm}
+
+    \begin{samepage}
+        \begin{twocolentry}{
+            2024
+        }
+            \textbf{A panorama-based technique to estimate sky view factor and solar irradiance considering transmittance of tree canopies}
+            \vspace{0.10 cm}
+            \mbox{\textbf{Kunihiko Fujiwara}}, \mbox{Koichi Ito}, \mbox{Marcel Ignatius}, \mbox{Filip Biljecki}
+            \vspace{0.10 cm}
+            Building and Environment, 266\\
+            DOI: \href{https://doi.org/10.1016/j.buildenv.2024.112071}{10.1016/j.buildenv.2024.112071}
+        \end{twocolentry}
+    \end{samepage}
+
+    \vspace{0.4 cm}
+
+    \begin{samepage}
+        \begin{twocolentry}{
+            2024
+        }
+            \textbf{Microclimate Vision: Multimodal prediction of climatic parameters using street-level and satellite imagery}
+            \vspace{0.10 cm}
+            \mbox{\textbf{Kunihiko Fujiwara}}, \mbox{Maxim Khomiakov}, \mbox{Winston Yap}, \mbox{Marcel Ignatius}, \mbox{Filip Biljecki}
+            \vspace{0.10 cm}
+            Sustainable Cities and Society, 114\\
+            DOI: \href{https://doi.org/10.1016/j.scs.2024.105733}{10.1016/j.scs.2024.105733}
+        \end{twocolentry}
+    \end{samepage}
+
+    \vspace{0.4 cm}
+
+    \begin{samepage}
+        \begin{twocolentry}{
+            2024
+        }
+            \textbf{Digital Twin and Wearables Unveiling Pedestrian Comfort Dynamics and Walkability in Cities}
+            \vspace{0.10 cm}
+            \mbox{Marcel Ignatius}, \mbox{Joie Lim}, \mbox{Ben Gottkehaskamp}, \mbox{\textbf{Kunihiko Fujiwara}}, \mbox{Clayton Miller}, \mbox{Filip Biljecki}
+            \vspace{0.10 cm}
+            ISPRS Annals of Photogrammetry, Remote Sensing \& Spatial Information Sciences, 10\\
+            DOI: \href{https://doi.org/10.5194/isprs-annals-X-4-W5-2024-195-2024}{10.5194/isprs-annals-X-4-W5-2024-195-2024}
+        \end{twocolentry}
+    \end{samepage}
+
+    \vspace{0.4 cm}
+
+    \begin{samepage}
+        \begin{twocolentry}{
+            2023
+        }
+            \textbf{Effects of solar radiation in the streets on pedestrian route choice in a city during the summer season}
+            \vspace{0.10 cm}
+            \mbox{Yasuhiko Azegami}, \mbox{Mineko Imanishi}, \mbox{\textbf{Kunihiko Fujiwara}}, \mbox{Hiroyuki Kusaka}
+            \vspace{0.10 cm}
+            Building and Environment, 235, 110250\\
+            DOI: \href{https://doi.org/10.1016/j.buildenv.2023.110250}{10.1016/j.buildenv.2023.110250}
+        \end{twocolentry}
+    \end{samepage}
+
+    \vspace{0.4 cm}
+
+    \begin{samepage}
+        \begin{twocolentry}{
+            2023
+        }
+            \textbf{Review of future weather data for building simulations available in Japan and confirmation of its characteristics}
+            \vspace{0.10 cm}
+            \mbox{Yusuke Arima}, \mbox{\textbf{Kunihiko Fujiwara}}, \mbox{Yasuhiko Azegami}, \mbox{Hajime Iseda}, \mbox{Akihito Ozaki}, \mbox{Younhee Choi}
+            \vspace{0.10 cm}
+            E3S Web of Conferences, 396, 05014\\
+            DOI: \href{https://doi.org/10.1051/e3sconf/202339605014}{10.1051/e3sconf/202339605014}
+        \end{twocolentry}
+    \end{samepage}
+
+    \vspace{0.4 cm}
+
+    \begin{samepage}
+        \begin{twocolentry}{
+            2020
+        }
+            \textbf{Optimization and evaluation of tree arrangement in open space for urban heat adaptation and heat island mitigation}
+            \vspace{0.10 cm}
+            \mbox{\textbf{Kunihiko Fujiwara}}, \mbox{Takashi Asawa}, \mbox{Tomoki Kiyono}
+            \vspace{0.10 cm}
+            Journal of Environmental Engineering (Transactions of AIJ), 85(772), 475-484\\
+            DOI: \href{https://doi.org/10.3130/aije.85.475}{10.3130/aije.85.475}
+        \end{twocolentry}
+    \end{samepage}
+
+    \section{Patents}
+
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
+            \item \textbf{Ground Heat Utilization Cooling Structure} (Pending)
+            \item \textbf{Water Level Estimation Device and Water Level Estimation Program} (Pending)
+            \item \textbf{Information Processing Device and Information Processing Program} (Pending)
+            \item \textbf{Circulation Evaluation Support Device, Circulation Evaluation Support System, and Program} (Pending)
+            \item \textbf{Circulation Degree Estimation Device, Circulation Degree Estimation System, and Program} (Pending)
+            \item \textbf{Micro-weather Element Estimation Device and Micro-weather Element Estimation Program} (Pending)
+            \item \textbf{Landscape Analysis Support Device and Landscape Analysis Support Program} (Active)
+            \item \textbf{Motif Similarity Calculation Device and Model Learning Device} (Active)
+            \item \textbf{Weather Prediction Device and Weather Prediction Model Learning Device} (Active)
+            \item \textbf{Growth Evaluation Control Device, Growth Evaluation Method, Growth Evaluation Control Program} (Active)
+            \item \textbf{Space Evaluation Support Device, Space Evaluation Support System, and Space Evaluation Support Program} (Active)
+            \item \textbf{Space Evaluation Support Device, Space Evaluation Support System, and Space Evaluation Support Program} (Pending)
+            \item \textbf{Space Evaluation Support Device, Space Evaluation Support System, and Space Evaluation Support Program} (Active)
+            \item \textbf{Building Design Support Device and Building Design Support Program} (Active)
+            \item \textbf{Recommendation Degree Derivation Device, Energy-saving Promotion Device and Program} (Active)
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
+
+    \section{Peer Reviews}
+
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
+            \item \textbf{Frontiers of Architectural Research} (3 reviews)
+            \item \textbf{International Journal of Applied Earth Observation and Geoinformation} (1 review)
+            \item \textbf{Sustainable Cities and Society} (1 review)
+            \item \textbf{Urban Climate} (2 reviews)
+            \item \textbf{Scientific Report} (1 review)
+            \item \textbf{Cities} (2 reviews)
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
+
+    \section{Skills}
+
+    \begin{onecolentry}
+        \textbf{Technical:} Python, Data Science, Computational Simulation
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+    \begin{onecolentry}
+        \textbf{Languages:} Japanese (Native), English (Proficient)
+    \end{onecolentry}
+
+    \section{Invited Talks}
+
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
+            \item Keynote speaker, Urban-M4 Symposium, Feb. 24, 2025
+            \item Guest speaker, Prime Seminar, Heat Island Institute International, Mar. 22, 2024
+            \item Guest speaker, Discussion seminar, Climate Change AI, Oct. 11, 2024
+            \item Guest speaker, Social Design FS Seminar, Yokohama National University, Oct. 18, 2024
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
+
+\end{document} 
