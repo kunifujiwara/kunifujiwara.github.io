@@ -137,7 +137,7 @@ sections:
               </a>
             </div>
             <div class="content-container">
-              <h4>Engineer</h4>
+              <h4>Building Equipment Engineer</h4>
               <h5><a href="https://www.takenaka.co.jp/design/" target="_blank">Building Design Department</a>, <a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">Takenaka Corporation</a></h5>
               <p>April 2017 – March 2018, 2013 – March 2014</p>
             </div>

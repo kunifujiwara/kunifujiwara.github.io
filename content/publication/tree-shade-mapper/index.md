@@ -19,7 +19,7 @@ publishDate: "2024-12-01T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["preprint"]
+publication_types: ["manuscript"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*Building and Environment, 266*"
@@ -40,9 +40,9 @@ tags:
 - solar radiation
 featured: true
 
-# links:
-# - name: ""
-#   url: ""
+links:
+- name: "DOI"
+  url: "10.1016/j.buildenv.2024.112071"
 url_pdf: https://doi.org/10.1016/j.buildenv.2024.112071
 url_code: 'https://github.com/kunifujiwara/TreeShadeMapper'
 url_dataset: ''
