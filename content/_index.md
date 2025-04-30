@@ -216,6 +216,59 @@ sections:
           - patent
     design:
       view: compact
+  - block: markdown
+    id: patents
+    content:
+      title: Patents
+      text: |-
+        <style>
+          /* Remove default bullets and align icon + text on one line */
+          .patent-list{
+            list-style:none;
+            padding-left:0;
+          }
+          .patent-list li{
+            display:flex;
+            align-items:center;
+            gap:.4rem;        /* space between icon and text */
+            margin-bottom:.8rem;
+            font-size: 0.85rem;
+          }
+          .patent-status {
+            display: inline-block;
+            margin-left: 0.3rem;
+            padding: 0.1rem 0.3rem;
+            border-radius: 3px;
+            font-size: 0.7rem;
+          }
+          .patent-active {
+            background-color: #d4edda;
+            color: #155724;
+          }
+          .patent-pending {
+            background-color: #fff3cd;
+            color: #856404;
+          }
+        </style>
+        <div class="wide-container" style="max-width: 100%; font-size: 0.9rem;">
+          <ul class="patent-list">
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Ground Heat Utilization Cooling Structure <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Water Level Estimation Device and Water Level Estimation Program <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Information Processing Device and Information Processing Program <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Circulation Evaluation Support Device, Circulation Evaluation Support System, and Program <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Circulation Degree Estimation Device, Circulation Degree Estimation System, and Program <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Micro-weather Element Estimation Device and Micro-weather Element Estimation Program <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Landscape Analysis Support Device and Landscape Analysis Support Program <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Motif Similarity Calculation Device and Model Learning Device <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Weather Prediction Device and Weather Prediction Model Learning Device <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Growth Evaluation Control Device, Growth Evaluation Method, Growth Evaluation Control Program <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Space Evaluation Support Device, Space Evaluation Support System, and Space Evaluation Support Program <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Space Evaluation Support Device, Space Evaluation Support System, and Space Evaluation Support Program <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Space Evaluation Support Device, Space Evaluation Support System, and Space Evaluation Support Program <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Building Design Support Device and Building Design Support Program <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Recommendation Degree Derivation Device, Energy-saving Promotion Device and Program <span class="patent-status patent-active">Active</span></li>
+          </ul>
+        </div>
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
