@@ -207,15 +207,6 @@ sections:
     design:
       view: article-grid
       columns: 2
-  - block: collection
-    id: patents
-    content:
-      title: Patents
-      filters:
-        folders:
-          - patent
-    design:
-      view: compact
   - block: markdown
     id: patents
     content:
@@ -252,21 +243,21 @@ sections:
         </style>
         <div class="wide-container" style="max-width: 100%; font-size: 0.9rem;">
           <ul class="patent-list">
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Ground Heat Utilization Cooling Structure <span class="patent-status patent-pending">Pending</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Water Level Estimation Device and Water Level Estimation Program <span class="patent-status patent-pending">Pending</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Information Processing Device and Information Processing Program <span class="patent-status patent-pending">Pending</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Circulation Evaluation Support Device, Circulation Evaluation Support System, and Program <span class="patent-status patent-pending">Pending</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Circulation Degree Estimation Device, Circulation Degree Estimation System, and Program <span class="patent-status patent-pending">Pending</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Micro-weather Element Estimation Device and Micro-weather Element Estimation Program <span class="patent-status patent-pending">Pending</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Landscape Analysis Support Device and Landscape Analysis Support Program <span class="patent-status patent-active">Active</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Motif Similarity Calculation Device and Model Learning Device <span class="patent-status patent-active">Active</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Weather Prediction Device and Weather Prediction Model Learning Device <span class="patent-status patent-active">Active</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Growth Evaluation Control Device, Growth Evaluation Method, Growth Evaluation Control Program <span class="patent-status patent-active">Active</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Space Evaluation Support Device, Space Evaluation Support System, and Space Evaluation Support Program <span class="patent-status patent-active">Active</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Space Evaluation Support Device, Space Evaluation Support System, and Space Evaluation Support Program <span class="patent-status patent-pending">Pending</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Space Evaluation Support Device, Space Evaluation Support System, and Space Evaluation Support Program <span class="patent-status patent-active">Active</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Building Design Support Device and Building Design Support Program <span class="patent-status patent-active">Active</span></li>
-            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} Recommendation Degree Derivation Device, Energy-saving Promotion Device and Program <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2024-176023/11/ja" target="_blank">Ground Heat Utilization Cooling Structure</a> <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2024-047391/11/ja" target="_blank">Water Level Estimation Device and Water Level Estimation Program</a> <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2024-041500/11/ja" target="_blank">Information Processing Device and Information Processing Program</a> <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2023-146835/11/ja" target="_blank">Circulation Evaluation Support Device, Circulation Evaluation Support System, and Program</a> <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2023-146834/11/ja" target="_blank">Circulation Degree Estimation Device, Circulation Degree Estimation System, and Program</a> <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2023-116300/11/ja" target="_blank">Micro-weather Element Estimation Device and Micro-weather Element Estimation Program</a> <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2022-154447/11/ja" target="_blank">Landscape Analysis Support Device and Landscape Analysis Support Program</a> <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2022-114957/11/ja" target="_blank">Motif Similarity Calculation Device and Model Learning Device</a> <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2022-076416/11/ja" target="_blank">Weather Prediction Device and Weather Prediction Model Learning Device</a> <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2022-063658/11/ja" target="_blank">Growth Evaluation Control Device, Growth Evaluation Method, Growth Evaluation Control Program</a> <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2022-055164/11/ja" target="_blank">Space Evaluation Support Device, Space Evaluation Support System, and Space Evaluation Support Program</a> <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2022-055163/11/ja" target="_blank">Space Evaluation Support Device, Space Evaluation Support System, and Space Evaluation Support Program</a> <span class="patent-status patent-pending">Pending</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2022-055162/11/ja" target="_blank">Space Evaluation Support Device, Space Evaluation Support System, and Space Evaluation Support Program</a> <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2021-005212/11/ja" target="_blank">Building Design Support Device and Building Design Support Program</a> <span class="patent-status patent-active">Active</span></li>
+            <li>{{< icon name="hero/document-text" class="w-5 h-5 text-blue-500" >}} <a href="https://www.j-platpat.inpit.go.jp/c1801/PU/JP-2017-181088/11/ja" target="_blank">Recommendation Degree Derivation Device, Energy-saving Promotion Device and Program</a> <span class="patent-status patent-active">Active</span></li>
           </ul>
         </div>
   - block: cta-card
