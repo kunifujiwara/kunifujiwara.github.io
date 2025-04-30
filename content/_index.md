@@ -56,7 +56,7 @@ sections:
           margin: 0 auto;
           font-size: 0.9rem;
         }
-        
+
         .experience-item {
           display: flex;
           flex-direction: row;
@@ -89,7 +89,7 @@ sections:
           font-size: 0.85rem;
         }
         </style>
-        
+
         <div class="wide-container" style="max-width: 100%; font-size: 0.9rem;">
           <div class="experience-item">
             <div class="logo-container">
@@ -103,7 +103,7 @@ sections:
               <p>April 2023 – Present</p>
             </div>
           </div>
-          
+
           <div class="experience-item">
             <div class="logo-container">
               <a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">
@@ -116,7 +116,7 @@ sections:
               <p>April 2018 – Present</p>
             </div>
           </div>
-          
+
           <div class="experience-item">
             <div class="logo-container">
               <a href="https://www.takenaka.co.jp/takenaka_e/rd/" target="_blank">
@@ -129,7 +129,7 @@ sections:
               <p>April 2014 – March 2017</p>
             </div>
           </div>
-          
+
           <div class="experience-item">
             <div class="logo-container">
               <a href="https://www.takenaka.co.jp/takenaka_e/" target="_blank">
@@ -145,7 +145,14 @@ sections:
         </div>
     design:
       columns: '1'
-      width: full 
+      css_style: |
+        /* widen just this section */
+        #experience .article-container,
+        #experience .col-lg-10,
+        #experience .container {
+          max-width: 100% !important;
+          width: 100%;
+        } 
   - block: markdown
     id: awards
     content:
