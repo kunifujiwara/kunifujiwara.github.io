@@ -21,7 +21,7 @@ publication_types: ["article-journal"]
 publication: "*Boundary-Layer Meteorology, 175(3), 417-440*"
 publication_short: ""
 
-abstract: ""
+abstract: "Considering that the characteristics of the heat balance between an isolated tree and the urban atmosphere have not yet been sufficiently clarified, we quantify both the sensible heat flux (H_T) and latent heat flux (λET) to and from an isolated Z. Serrata in the Japanese summer. To estimate the whole-tree transpiration rate (ET) and λET values, we apply a previously developed method using a weighing lysimeter. To estimate the boundary-layer heat conductance (g_b) of the total leaf area of the tree crown and the sensible heat flux (H_T), we apply a scaling-up approach using the heat-balance two-state (HB-TS) method, which previously only targeted single leaves, to the tree crown. Two sample trees with similar crown shape and total leaf area are selected for the HB-TS method but under different irrigation conditions, and H_T is estimated. The ET values of the tree change three times during the dry-down experiment (during which time irrigation was halted). We also compare H_T and λET values between two different days under different irrigation and soil–water conditions. The most important result from this comparison is that the tendencies of H_T and λET were reversed on these days, and the Bowen ratio (β) dramatically varies between 0.29 and 2.2. These results indicate that the Bowen ratio of isolated trees at urban sites can vary between the previously reported values for forest sites and those for artificial urban sites within a short period, owing to urban-unique conditions (e.g., limited water supply and rooting space, and artificial sealing)."
 
 # Summary. An optional shortened abstract.
 # summary: 
@@ -34,9 +34,9 @@ tags:
 - urban climate
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
+links:
+- name: "DOI"
+  url: "https://doi.org/10.1007/s10546-020-00507-y"
 url_pdf: ""
 url_code: ""
 url_dataset: ""
