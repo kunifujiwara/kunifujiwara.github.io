@@ -60,3 +60,4 @@ features:
     enable: false
   custom_js:
     - js/fix-social-links.js
+    - js/fix-links.js
