@@ -120,11 +120,11 @@ skills:
       - name: Bass
         description: ''
         percent: 50
-        icon: music
+        icon: hero/musical-note
       - name: Painting
         description: ''
         percent: 40
-        icon: palette
+        icon: hero/paint-brush
 
 languages:
   - name: Japanese
@@ -138,27 +138,27 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Special Encouragement Award
-    date: '2023'
+    date: '2023-01-01'
     awarder: Engineering Advancement Association of Japan
     summary: |
       Recognized for innovative contributions to urban environmental monitoring and analysis.
   - title: Technology Award
-    date: '2023'
+    date: '2023-01-01'
     awarder: Heat Island Institute International
     summary: |
       Awarded for developing novel approaches to urban heat island measurement and mitigation strategies.
   - title: Bronze Award
-    date: '2023'
+    date: '2023-01-01'
     awarder: Urban Data Challenge
     summary: |
       Received for a data-driven solution addressing urban climate challenges using digital twin technology.
   - title: Best Poster Award
-    date: '2022'
+    date: '2022-01-01'
     awarder: 17th Conference of Heat Island Institute International
     summary: |
       Recognized for research on integrating wearable technology with urban digital twins for pedestrian comfort analysis.
   - title: Award of Excellence
-    date: '2021'
+    date: '2021-01-01'
     awarder: Urban Infrastructure & Technology Promotion Council
     summary: |
       Honored for contributions to sustainable urban infrastructure development through innovative data collection methods.
