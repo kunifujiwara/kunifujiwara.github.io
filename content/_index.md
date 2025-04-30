@@ -145,6 +145,7 @@ sections:
         </div>
     design:
       columns: '1'
+      width: full 
   - block: markdown
     id: awards
     content:
