@@ -43,7 +43,7 @@ featured: true
 links:
 - name: "DOI"
   url: "https://doi.org/10.1016/j.buildenv.2024.112071"
-url_pdf: 'https://kunifujiwara.github.io/content/publication/tree-shade-mapper/2024_tree_shade.pdf'
+url_pdf: 'https://kunifujiwara.github.io/publication/tree-shade-mapper/2024_tree_shade.pdf'
 url_code: 'https://github.com/kunifujiwara/TreeShadeMapper'
 url_dataset: ''
 url_poster: ''
