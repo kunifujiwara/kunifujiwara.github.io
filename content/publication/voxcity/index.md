@@ -53,7 +53,7 @@ featured: true
 links:
 - name: "DOI"
   url: "https://doi.org/10.48550/arXiv.2504.13934"
-url_pdf: 'https://arxiv.org/pdf/2504.13934.pdf'
+url_pdf: 'https://kunifujiwara.github.io/publication/voxcity/2025_voxcity.pdf'
 url_code: 'https://github.com/kunifujiwara/VoxCity'
 url_dataset: ''
 url_poster: ''

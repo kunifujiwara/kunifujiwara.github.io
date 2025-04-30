@@ -23,7 +23,7 @@ publication_types: ["article-journal"]
 publication: "*AIJ Journal of Technology and Design, 28(68), 320-325*"
 publication_short: ""
 
-abstract: ""
+abstract: "We propose a method for multi-objective optimization of tree arrangement in urban open space. The Pareto solutions of the optimization consider trade-offs between thermal radiant environment, green visibility, and sky visibility. The result captures the trade-offs reasonably and shows that even when the amount of trees is the same, tree arrangement can have nonnegligible impacts on mean radiant temperature, green visibility, and sky visibility. Furthermore, we show procedures for utilizing the Pareto solutions, which summarize the characteristics of the optimum tree arrangement or extract a reference solution for green space planning based on requirements from a planning scenario."
 
 # Summary. An optional shortened abstract.
 # summary: 
@@ -36,10 +36,10 @@ tags:
 - landscape design
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: ""
+links:
+- name: "DOI"
+  url: "https://doi.org/10.3130/aijt.28.320"
+url_pdf: "https://kunifujiwara.github.io/publication/multi-objective-optimization/2021_tree_multi_objective.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

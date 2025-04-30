@@ -57,7 +57,7 @@ featured: false
 links:
 - name: "DOI"
   url: "https://doi.org/10.1016/j.compenvurbsys.2025.102283"
-url_pdf: 'https://www.sciencedirect.com/science/article/pii/S0198971525000498/pdfft?md5=1234567890abcdef&pid=1-s2.0-S0198971525000498-main.pdf'
+url_pdf: 'https://kunifujiwara.github.io/publication/zensvi/2025_zensvi.pdf'
 url_code: 'https://github.com/koito19960406/ZenSVI'
 url_dataset: ''
 url_poster: ''

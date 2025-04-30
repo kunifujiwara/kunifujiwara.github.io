@@ -29,7 +29,7 @@ publication_types: ["paper-conference"]
 publication: "*ISPRS Annals of Photogrammetry, Remote Sensing & Spatial Information Sciences, 10*"
 publication_short: ""
 
-abstract: ""
+abstract: "This research examines the interplay of outdoor thermal comfort, walkability, and three-dimensional geospatial landscape within cities. Employing advanced data collection methods, including smart wearables and street view imagery (SVI), we conduct a comprehensive exploration of integrating heterogeneous sensor data and computer vision in an urban digital twin (UDT) we develop. We focus on the integrated thermal walk concept, where participants, equipped with wearables, contribute health metrics and real-time thermal sensation feedback while walking along selected routes for which we collect detailed 3D geoinformation, which in turn provides a foundation for understanding and improving comfort and walkability in cities. Our study not only addresses the integration, but also underscores the transformative role of advanced analytics and UDT in deciphering how urban morphology influences thermal experiences. While the growing accessibility of wearable devices facilitates work such as ours, we highlight challenges in collecting diverse participant data and the imperative need for specialized expertise in UDT and computer vision. This research contributes to (1) digital twins, providing a novel combination of data integration and a new use case, and to (2) urban climatology, advancing our understanding of the relationship among microclimate, urban environment, and outdoor thermal comfort. Beyond theoretical contributions, the study's practical significance is revealed in the development of accurate predictive models for understanding walkability, promising improvements in the quality of urban life, and pronouncing the important role of 3D geoinformation in such a domain."
 
 # Summary. An optional shortened abstract.
 # summary: 
@@ -42,10 +42,10 @@ tags:
 - urban environment
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: ""
+links:
+- name: "DOI"
+  url: "https://doi.org/10.5194/isprs-annals-X-4-W5-2024-195-2024"
+url_pdf: "https://kunifujiwara.github.io/publication/digital-twin-wearables/2024_3dgeoinfo_thermal_walk.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

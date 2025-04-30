@@ -45,7 +45,7 @@ featured: true
 links:
 - name: "DOI"
   url: "https://doi.org/10.1016/j.scs.2024.105733"
-url_pdf: 'https://www.sciencedirect.com/science/article/pii/S0272494424001123/pdfft?md5=1234567890abcdef&pid=1-s2.0-S0272494424001123-main.pdf'
+url_pdf: 'https://kunifujiwara.github.io/publication/microclimate-vision/2024_miroclimate_vision.pdf'
 url_code: 'https://github.com/kunifujiwara/microclimate-vision'
 url_dataset: ''
 url_poster: ''

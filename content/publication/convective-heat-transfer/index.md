@@ -41,7 +41,7 @@ featured: false
 links:
 - name: "DOI"
   url: "https://doi.org/10.3130/aije.81.235"
-url_pdf: ""
+url_pdf: "https://kunifujiwara.github.io/publication/convective-heat-transfer/2016_tree_heat_transfer.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

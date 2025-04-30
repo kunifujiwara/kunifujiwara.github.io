@@ -38,9 +38,9 @@ tags:
 - thermal comfort
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
+links:
+- name: "DOI"
+  url: "https://doi.org/10.1016/j.buildenv.2023.110250"
 url_pdf: ""
 url_code: ""
 url_dataset: ""
