@@ -81,7 +81,7 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: 奨励賞
+  - title: 奨励特別賞
     date: '2023-01-01'
     awarder: 一般財団法人 エンジニアリング協会
     summary: |
