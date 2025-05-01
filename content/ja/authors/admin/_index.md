@@ -4,6 +4,7 @@ title: 藤原 邦彦
 
 # Name pronunciation (optional)
 # name_pronunciation: ふじわら くにひこ
+#
 
 # Full name (for SEO)
 first_name: 邦彦
