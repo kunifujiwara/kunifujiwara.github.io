@@ -49,4 +49,39 @@ body.dark .nav-link:hover {
 .section {
   padding-top: 80px;
   margin-top: -80px;
+}
+
+/* Language Switcher Styles */
+.language-switcher {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  z-index: 1030;
+}
+
+.language-switcher .dropdown-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.language-switcher .dropdown-toggle:hover,
+.language-switcher .dropdown-toggle:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.language-switcher .dropdown-menu {
+  min-width: 100px;
+}
+
+.language-switcher .dropdown-item {
+  font-size: 0.9rem;
+}
+
+.language-switcher .dropdown-item.active {
+  font-weight: bold;
 } 

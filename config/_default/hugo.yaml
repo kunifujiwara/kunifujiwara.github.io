@@ -16,9 +16,21 @@ theme: academic-cv
 ############################
 
 defaultContentLanguage: en
-hasCJKLanguage: false
+hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+
+# For more options, see: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    contentDir: content/en
+    disabled: false
+  ja:
+    disabled: false
+
+# Enable language switcher
+params:
+  ShowLanguageSwitcher: true
 
 ############################
 ## ADVANCED

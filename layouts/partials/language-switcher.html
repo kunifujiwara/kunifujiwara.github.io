@@ -1,0 +1,18 @@
+{{ if .Site.IsMultiLingual }}
+<div class="language-switcher">
+  <div class="dropdown">
+    <button class="dropdown-toggle" type="button" id="languageSwitcher" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      {{ .Site.Language.LanguageName }}
+    </button>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageSwitcher">
+      {{ range .Site.Languages }}
+        {{ if eq $.Site.Language.Lang .Lang }}
+          <span class="dropdown-item active">{{ .LanguageName }}</span>
+        {{ else }}
+          <a class="dropdown-item" href="{{ $.Permalink | replaceRE (printf "^https?://[^/]+/%s/" $.Site.Language.Lang) (printf "https://%s/%s/" ($.Site.BaseURL | replaceRE "^https?://([^/]+).*" "$1") .Lang) }}">{{ .LanguageName }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }} 

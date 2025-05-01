@@ -5,8 +5,41 @@
 # Default language
 en:
   languageCode: en-us
+  languageName: English
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  title: Kunihiko Fujiwara
+  weight: 1
+
+# Japanese language
+ja:
+  languageCode: ja-jp
+  languageName: 日本語
+  # Don't specify contentDir to share most content with English
+  title: 藤原 邦彦
+  weight: 2
+  params:
+    description: 研究者、エンジニアのウェブサイト
+  menu:
+    main:
+      - name: プロフィール
+        url: '#about'
+        weight: 10
+      - name: 経歴
+        url: '#experience'
+        weight: 12
+      - name: 受賞歴
+        url: '#awards'
+        weight: 13
+      - name: 論文
+        url: '#publications'
+        weight: 14
+      - name: 講演
+        url: '#talks'
+        weight: 16
+      - name: 特許
+        url: '#patents'
+        weight: 17
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:
