@@ -1,0 +1,73 @@
+{{ $current_page := . }}
+{{ $menu := site.Menus.main }}
+{{ $show_navbar := site.Params.main_menu.enable }}
+
+{{/* Check for main menu content */}}
+{{ $has_menu := $show_navbar }}
+{{ if $has_menu | and $menu }}
+{{ $has_menu = true }}
+{{ end }}
+
+{{/* Check for header content */}}
+{{ $header_content := site.Params.header }}
+{{ $has_header := $header_content.enable }}
+{{ $header_components := $header_content.components }}
+{{ $use_isotope := false }}
+{{ range $header_components }}
+  {{ if eq .type "isotope" }}
+    {{ $use_isotope = true }}
+  {{ end }}
+{{ end }}
+
+<header class="header">
+  {{ if $has_menu }}
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container">
+
+      {{/* Brand */}}
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="{{ "/" | relLangURL }}">
+          {{- if site.Params.appearance.theme_day }}
+            {{/* Check if logo image is set */}}
+            {{- $logo_path := "/media/logo.png" }}
+            {{- $logo_url := printf "assets/%s" $logo_path }}
+            {{- if (fileExists $logo_url) -}}
+              <img src="{{ $logo_path | relURL }}" alt="{{ site.Title }} logo" class="logo">
+            {{- else -}}
+              {{- site.Title -}}
+            {{- end -}}
+          {{- else -}}
+            {{- site.Title -}}
+          {{- end -}}
+        </a>
+      </div>
+
+      {{/* Mobile menu button */}}
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+
+      {{/* Nav menu items */}}
+      <div class="navbar-collapse main-menu-item collapse" id="navbar-content">
+        <ul class="navbar-nav d-md-inline-flex">
+          {{ range $menu }}
+          <li class="nav-item">
+            {{ $active := or ($current_page.IsMenuCurrent "main" .) ($current_page.HasMenuCurrent "main" .) }}
+            {{ $active = or $active (eq (trim (path.Dir .URL) "/") (trim $current_page.RelPermalink "/")) }}
+            {{ $active = or $active (eq .URL $current_page.RelPermalink) }}
+            <a class="nav-link {{ if $active }}active{{ end }}" href="{{ .URL | relLangURL }}" {{ if gt (len .URL) 10 }}{{ if eq (substr .URL 0 10) "http://www." }}target="_blank"{{ end }}{{ end }} {{ if gt (len .URL) 11 }}{{ if eq (substr .URL 0 11) "https://www." }}target="_blank"{{ end }}{{ end }}>{{ .Name }}</a>
+          </li>
+          {{ end }}
+          
+          {{ if site.IsMultiLingual }}
+          <li class="nav-item">
+            {{ partial "language-switcher.html" . }}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  {{ end }}
+</header> 

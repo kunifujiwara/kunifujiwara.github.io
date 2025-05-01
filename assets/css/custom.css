@@ -53,35 +53,54 @@ body.dark .nav-link:hover {
 
 /* Language Switcher Styles */
 .language-switcher {
-  position: absolute;
-  top: 0.5rem;
-  right: 1rem;
+  display: inline-block;
+  margin-left: 1rem;
+  position: relative;
   z-index: 1030;
 }
 
 .language-switcher .dropdown-toggle {
   background: none;
   border: none;
-  color: #fff;
+  color: inherit;
   font-size: 0.9rem;
   cursor: pointer;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
 }
 
 .language-switcher .dropdown-toggle:hover,
 .language-switcher .dropdown-toggle:focus {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .language-switcher .dropdown-menu {
   min-width: 100px;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
 }
 
 .language-switcher .dropdown-item {
   font-size: 0.9rem;
+  padding: 0.5rem 1rem;
 }
 
 .language-switcher .dropdown-item.active {
   font-weight: bold;
+}
+
+[data-scheme="dark"] .language-switcher .dropdown-toggle,
+.dark .language-switcher .dropdown-toggle,
+html[data-dark="true"] .language-switcher .dropdown-toggle,
+body.dark .language-switcher .dropdown-toggle {
+  color: #e2e8f0 !important;
+}
+
+[data-scheme="dark"] .language-switcher .dropdown-toggle:hover,
+.dark .language-switcher .dropdown-toggle:hover,
+html[data-dark="true"] .language-switcher .dropdown-toggle:hover,
+body.dark .language-switcher .dropdown-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 } 

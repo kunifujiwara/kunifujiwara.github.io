@@ -15,7 +15,7 @@ en:
 ja:
   languageCode: ja-jp
   languageName: 日本語
-  # Don't specify contentDir to share most content with English
+  contentDir: content/ja
   title: 藤原 邦彦
   weight: 2
   params:
