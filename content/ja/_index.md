@@ -98,7 +98,7 @@ sections:
               </a>
             </div>
             <div class="content-container">
-              <h4>上席研究員</h4>
+              <h4>研究主任</h4>
               <h5><a href="https://www.takenaka.co.jp/rd/" target="_blank">技術研究所</a>, <a href="https://www.takenaka.co.jp/" target="_blank">竹中工務店</a></h5>
               <p>2018年4月 – 現在</p>
             </div>
@@ -124,7 +124,7 @@ sections:
               </a>
             </div>
             <div class="content-container">
-              <h4>設備設計者</h4>
+              <h4>設備設計、設備施工管理</h4>
               <h5><a href="https://www.takenaka.co.jp/design/" target="_blank">設計部</a>, <a href="https://www.takenaka.co.jp/" target="_blank">竹中工務店</a></h5>
               <p>2017年4月 – 2018年3月, 2013年 – 2014年3月</p>
             </div>
@@ -153,11 +153,11 @@ sections:
         </style>
         <div class="wide-container" style="max-width: 100%; font-size: 0.95rem;">
           <ul class="award-list">
-            <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}} 奨励賞、一般財団法人 エンジニアリング協会、2023</li>
-            <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}} 技術賞、一般社団法人 ヒートアイランド学会、2023</li>
-            <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}} ブロンズ賞、Urban Data Challenge、2023</li>
+            <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}} 奨励特別賞、一般財団法人 エンジニアリング協会、2023</li>
+            <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}} 技術賞、日本ヒートアイランド学会、2023</li>
+            <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}} 銅賞、アーバンデータチャレンジ、2023</li>
             <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}} ポスター賞、第17回ヒートアイランド学会全国大会、2022</li>
-            <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}} 優秀賞、一般財団法人 都市基盤技術推進会議、2021</li>
+            <li>{{< icon name="hero/trophy" class="w-5 h-5 text-yellow-500" >}} 優秀賞、アーバンインフラテクノロジー推進会議、2021</li>
           </ul>
         </div>
     design:
@@ -165,7 +165,7 @@ sections:
   - block: collection
     id: publications
     content:
-      title: 主要論文
+      title: 主な論文
       filters:
         folders:
           - publication
@@ -176,7 +176,7 @@ sections:
   - block: collection
     id: recent-publications
     content:
-      title: 最近の論文
+      title: 最新の論文
       text: ""
       filters:
         folders:
@@ -205,10 +205,10 @@ sections:
         </style>
         <div class="wide-container" style="max-width: 100%; font-size: 0.95rem;">
           <ul class="talks-list">
-            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} 基調講演者、Urban-M4シンポジウム、2025年2月24日</li>
-            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} ゲスト講演者、プライムセミナー、一般社団法人 ヒートアイランド学会、2024年3月22日</li>
-            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} ゲスト講演者、ディスカッションセミナー、Climate Change AI、2024年10月11日</li>
-            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} ゲスト講演者、社会デザインFSセミナー、横浜国立大学、2024年10月18日</li>
+            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} 基調講演者、Urban-M4シンポジウム、ワーゲニンゲン大学（オランダ）、2025年2月24日</li>
+            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} ゲスト講演者、プライムセミナー、日本ヒートアイランド学会、オンライン、2024年3月22日</li>
+            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} ゲスト講演者、ディスカッションセミナー、Climate Change AI、オンライン、2024年10月11日</li>
+            <li>{{< icon name="hero/presentation-chart-bar" class="w-5 h-5 text-green-500" >}} ゲスト講演者、社会デザインFSセミナー、横浜国立大学、オンライン、2024年10月18日</li>
           </ul>
         </div>
     design:
