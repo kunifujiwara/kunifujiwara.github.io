@@ -40,7 +40,7 @@ tags: []
 featured: false
 
 links: []
-url_pdf: ""
+url_pdf: "https://kunifujiwara.github.io/publication/outdoor-comfort-jitai/2026-cities-jitai.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

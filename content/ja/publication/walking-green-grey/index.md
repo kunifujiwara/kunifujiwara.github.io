@@ -38,7 +38,7 @@ tags: []
 featured: false
 
 links: []
-url_pdf: ""
+url_pdf: "https://kunifujiwara.github.io/publication/walking-green-grey/2026-bae-walking.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""
